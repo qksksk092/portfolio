@@ -1,0 +1,122 @@
+<?
+	session_start();
+    @extract($_SESSION); 
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>무림페이지</title>
+
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+    <link rel="apple-touch-startup-image" href="startup.png">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="./css/sub1_2content.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <script src="../js/prefixfree.min.js"></script>
+    <script>
+        // <![CDATA[
+        try {
+            window.addEventListener('load', function () {
+                setTimeout(scrollTo, 0, 0, 1);
+            }, false);
+        } catch (e) {}
+        // ]]>
+    </script>
+    <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+
+
+    <div id="wrap">
+        <!--상단 헤더영역-->
+        <? include "../sub_head.html" ?>
+
+        <div class="main">
+            <h3>회사정보</h3>
+            <p>company information</p>
+        </div>
+
+        <article id="content">
+
+
+            <div class="con1 contlist">
+
+                <h2>가치관</h2>
+                <ul>
+                    <li>
+
+                        <img src="images/value1x2.jpg" alt="">
+                        <strong>가치를 만드는</strong>
+                        <p>최고의 펄프·제지 기술로 세상이 필요로 하는 친환경 소재를 개발하여 생활에 가치를 더한다.</p>
+
+                    </li>
+
+                    <li>
+                        <img src="images/value3x2.jpg" alt="">
+                        <strong>고객과 소통하는</strong>
+                        <p>
+                            원칙을 준수한다.
+                            바르게 행동한다.
+                            서로를 존중한다.
+                            실패를 두려워하지 않는다.
+                            함께 고민해 이뤄낸다.
+                            항상 더 나은 미래를 생각한다.</p>
+
+                    </li>
+                    <li>
+                        <img src="images/value2x2.jpg" alt="">
+                        <strong>환경을 생각하는</strong>
+
+                        <p> <i class="fas fa-leaf"></i><span> 핵심사업</span>
+                            펄프, 제지, 신소재</p>
+
+                        <p> <i class="fas fa-seedling"></i><span> 핵심전략</span>
+                            특수 기능지 확대</p>
+
+                    </li>
+                </ul>
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+        </article>
+        <!--하단 푸터 영역-->
+        <? include "../sub_foot.html" ?>
+
+    </div>
+
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="../js/fullnav.js"></script>
+
+
+
+</body>
+
+</html>

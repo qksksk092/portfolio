@@ -1,0 +1,35 @@
+/* 기업소개 내용 영역 */
+#content .title_area ul{position: relative;  height: 60px; margin: 0 auto; text-transform: uppercase; font-family: '나눔고딕'; margin-top: 150px;}
+#content .title_area ul::after{content: '';display: block; position: absolute; top:21px; width:100%; height: 1px; background: #ccc; transition: all .5s; z-index:-1}
+#content .title_area ul li{float: left; width: 400px; text-align: center; padding:18px 0 0 0;}
+#content .title_area ul li a{font-size: 18px; width: 400px;transition: all .5s;}
+#content .title_area ul li a::before{content:""; display: block; margin: 0 0 -41px 200px; background: #ccc; transition: all .5s; width: 10px; height: 10px; border-radius: 50%;}
+#content .title_area ul li a:hover{color: #0065b3; font-weight: 600; }
+#content .title_area ul li a:hover::before{background: #0065b3; transform: scale(1.2); }
+#content .title_area ul li.current a{color:#0065b3; font-weight: 600;}
+#content .title_area ul li.current a::before{background:#0065b3;}
+
+#content .content_area{ font-family: 'Nanum Gothic', sans-serif;margin-bottom: 150px;}
+#content .content_area h3{font-family: 'Nanum Gothic', sans-serif;  font-weight: 700;font-size: 40px;margin-bottom: 100px;text-align: center;}
+#content .content_area .line_dceo{display: block; width: 2px;height: 60px;background-color: #7bc242;margin:100px 0 100px 600px }
+#content .content_area .last{margin-right: 0;margin-bottom: 0;}
+#content .content_area .blue{color: #016bb7;}
+#content .content_area .green{color: #7bc242}
+#content .content_area .red{color:#ff0000}
+
+.content_area .top{border-bottom:2px solid #016bb7 ;width: 100%;margin-top: 100px;}
+.content_area .top p{padding-bottom: 10px;}
+
+.content_area .mail_box{margin: 40px auto ;}
+.content_area .mail_box .row{overflow: hidden;padding: 25px 0;}
+.content_area .mail_box .row label{float: left;font-weight: 700; text-align: center; width: 15%;}
+.content_area .form-control {outline: 0;border: 0;background: #f6f6f6; float: left; width: 83%; padding: 10px 0 10px 20px;}
+.row .send{}
+
+.consent{border-top:2px solid #016bb7 ;width: 100%;}
+.consent dl{}
+.consent dl dt{font-size: 25px;font-weight: 700;padding: 25px 0;}
+.consent dl dd{line-height: 30px;padding: 5px 0 0 15px;}
+.consent p{text-align: center;font-size: 20px;font-weight: 700;padding: 50px 0;}
+.row{text-align: center;}
+.row button{padding: 10px 40px;color: #fff;background: #016bb7;border: 0;}

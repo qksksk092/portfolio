@@ -1,0 +1,123 @@
+<?
+	session_start();
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>무림페이퍼:채용안내</title>
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_2content.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE 9]>  
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="wrap">
+        <!--서브헤더영역-->
+        <? include "../common/sub_head.html" ?>
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+        </div>
+        <div class="sub_menu">
+            <div class="sub_title">
+
+                <h3>채용안내</h3>
+                <p>recruitment guide</p>
+            </div>
+
+            <ul>
+                <li><a href="sub5_1.html">채용정보</a></li>
+                <li class="current"><a href="sub5_2.html">인사제도</a></li>
+                <li class="last"><a href="sub5_3.html">복리후생</a></li>
+
+            </ul>
+        </div>
+        <article id="content">
+
+            <div class="title_area">
+                <div class="line_map">
+                    HOME &gt; 채용안내 &gt; <strong>인사제도</strong>
+                </div>
+                <h2>인사제도</h2>
+                <p>무림 그룹의 채용 정보를 소개합니다</p>
+            </div>
+
+            <div class="content_area">
+
+                <div class="con1">
+                    <h3>직급체계</h3>
+                    <ul>
+                        <li>부장 3년 1급</li>
+                        <li>차장 4년 2급</li>
+                        <li>과장 4년 3급</li>
+                        <li>대리 3년 4급</li>
+                        <li>사원<span> *고졸</span> 4년 5급</li>
+                        <li>사원<span> *고졸 및 전문대졸</span> 4년 6급</li>
+                    </ul>
+                    <p><strong> Point 승격제도</strong>
+                        직종별 승격에 <span class="red"> 필요한 자격항목을 선정</span>하여 승격체류 연한과 관계없이 일정 자격 <span class="red"> Point를
+                            취득</span>하면 승격예고를 통해 승격대상 자격 부여, 정기/발탁승격 실시</p>
+
+                </div>
+                <div class="con2">
+
+                    <h3>인재육성체계</h3>
+
+                    <div class="foster">
+                        <span>Dual Ladder System</span>
+
+                        <ul>
+                            <li>신입사원 <br>육성</li>
+                            <li>경력개발을 위한<br> 직무순환</li>
+                            <li>다양한 교육을<br> 통한 역량 개발</li>
+                        </ul>
+                    </div>
+
+                    <div class="foster_text">
+                        <ul>
+                            <li><img src="images/content2/con2_icon1.png" alt=""> <span>신입사원 육성 </span> 당사만의 멘토링 제도로서
+                                신입사원의 조기 적응, 올바른 직업관을 확립하여 건강한 무림인으로 육성</li>
+                            <li> <img src="images/content2/con2_icon2.png" alt=""> <span>경력개발을 위한직무순환 </span>동일 직군 또는 타
+                                직군 간 직무순환을 통해 크고 넓은 업무시야를 지닌 무림인으로 육성</li>
+                            <li class="last"> <img src="images/content2/con2_icon3.png" alt=""> <span>다양한 교육을 통한 역량 개발
+                                </span>전 사원 집체교육, 사내/외 직무역량교육(on/off-line), 직급/직책자 필수과정, 어학교육을 통해 역량 개발
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </article>
+    </div>
+
+
+
+
+
+    <!--서브푸터영역-->
+    <? include "../common/sub_foot.html" ?>
+    <!--JQuery-->
+    <script src="../common/js/jquery-1.12.4.min.js"></script>
+    <script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="../common/js/fullnav.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+/* 공 통 */
+
+#content .last{margin-right: 0;}
+.contlist{padding: 0 5%; }
+#content .blue{color:#016bb7}
+#content .green{color:#7bc242}
+#content .red{color:red}
+#content .current{position: relative;}
+#content .current::before{content: '';background: #FFF;width: 6px;height: 6px;border-radius: 50%;position: absolute;top: 0;left: 15px;}
+.main p{color: #fff; letter-spacing: 1px;text-transform: uppercase;font-size: 13px;text-align: center;padding: 5px 0 ;}
+
+.main{height: 130px; background: url(../images/main.jpg) center no-repeat;background-size:cover;border-radius:0 0 15px 15px;}
+.main h3{text-shadow: 1px 1px 3px #666;padding: 40px 0 0 20px;text-align: center; font-family: 'Nanum Gothic', sans-serif;color: #fff; font-weight: 700;font-size: 25px;}
+.con1 ,.con2 ,.con3{margin-bottom: 50px;}
+h2{font-family: 'Nanum Gothic', sans-serif;font-size: 30px;font-weight: 700;text-align: center;padding: 30px 0;}
+.contlist >img{width: 100%;border-radius: 20px;margin-bottom: 15px;}
+
+#content h3{font-family: 'Nanum Gothic', sans-serif;margin:50px 0 30px 0; font-size: 20px;font-weight: 700;text-align: center;}
+.contlist >p{font-family: 'Nanum Gothic', sans-serif;font-size: 16px;line-height: 27px;}
+
+/*개별*/
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin: 20px 0;
+}
+.swiper-slide {
+  text-align: center;
+  height: 200px;
+  margin-bottom: 15px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+ bottom: 0;}
+.swiper-slide img{width: 160px;border-radius: 10px;}
+.swiper-slide dl{font-family: 'Nanum Gothic', sans-serif;}
+.swiper-slide dl dt{font-size: 18px;font-weight: 700;margin-bottom: 15px;}
+.swiper-slide dl dd{line-height: 24px;}

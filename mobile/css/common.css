@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* 모바일 코딩 필수 공통영역 */
+* {
+ margin:0;
+ padding:0;
+ -webkit-text-size-adjust:none; }
+body {
+ color:#333;
+ font-size:14px;
+ font-family:돋움, Dotum; }
+img, fieldset { border:0; vertical-align:top }
+table{border-collapse: collapse;width: 100%;}
+ul, ol, li, dl { list-style:none; }
+h1, h2, h3, h4, h5, h6 {
+ font-size:100%;
+ font-weight:normal; }
+hr { display:none; }
+a { color:inherit; }
+a, a:link {
+ color:#333;
+ text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {
+ color:#333;
+ text-decoration:none; }
+em, i, address {
+ font-style:normal;
+ font-weight:normal; }
+legend, caption {
+ display:none;
+ clear:both; }
+input, textarea, select, button, table {
+ font-size:inherit;
+ font-family:inherit;
+ line-height:inherit; }
+section, nav, article, aside, hgroup, header, footer { display:block }
+textarea, input {
+ border-radius:1px;}
+textarea { resize:none; }
+label { cursor:pointer; }
+.hidden,#skipNav{display: block; position: absolute; left:-1000%;top:0; width: 1px; height: 1px; overflow: hidden; color: #fff}
+
+/*  헤드라인 폰트 연결*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+/* font-family: 'Nanum Gothic', sans-serif;  font-weight:  */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+/*   font-family: 'Nanum Myeongjo', serif; font-weight: */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+/* font-family: 'Roboto', sans-serif; font-weight: */
+
+/* 전체 공통 */
+#wrap{ width:100%; position: relative;overflow: hidden;}
+#wrap .box{width:100%; height:100%; background:#000; opacity:0.7;
+    position:absolute; left:0; top:0; z-index:10; display:none}
+
+/* 헤더공통 */
+#headerArea {height:50px;width: 100%; background:#fff; position:relative;}
+#headerArea .logo{float:left;margin-left: 20px;}
+#headerArea .logo a{display:block;padding: 10px 0;}
+#headerArea .logo img{ width: 92px;}
+#headerArea .btn{float:right; display:block;padding: 15px 0; margin-right: 20px; }
+#headerArea .btn img{width: 25px;}
+
+/* 네비공통 */
+#headerArea #gnb{ font-family: 'Nanum Gothic', sans-serif; clear:both; width:80%;background-color: #fff; position:absolute; right:-100%; top:0;opacity: 0; z-index:20}
+#headerArea #gnb .login{font-weight:700;margin: 15% 10% 0; background: #016bb7;width: 80%; border-radius: 5px;}
+#headerArea #gnb .login a{padding: 10px;font-size:16px ;display: block;color: #fff;text-align: center; font-family: 'Nanum Gothic', sans-serif;  font-weight: 700;}
+#headerArea #gnb .mainMenu{margin-top: 10%;}
+#headerArea #gnb .mainMenu li a{display: block; padding: 15px 0} 
+#headerArea #gnb .mainMenu .depth1{ font-weight:700;border-top: 1px solid #ccc;}
+#headerArea #gnb .mainMenu .last{border-bottom:1px solid #ccc}
+#headerArea #gnb .mainMenu .depth1 h3{font-size: 20px;margin-left: 30px;}
+#headerArea #gnb .depth1 ul{display: none; background:rgba(1, 107, 183,.2);padding-left:50px;}
+#headerArea #gnb .depth1 ul a{font-size:16px}
+#headerArea #gnb .last{border-bottom:1px solid #FFF}
+#headerArea #gnb .mclose{position:absolute; left:-30px; top:0; font-size:2em; color:#fff}
+#headerArea #gnb .bottom{overflow: hidden;margin: 10% 0;}
+#headerArea #gnb .bottom span{ border-radius: 5px;text-align: center; display: block;padding:2% 1%;line-height: 20px;color: #fff; float: left;width:30%;margin-left: 20px;background: #016bb7;}
+#headerArea #gnb .bottom span a{ display: block; width:100%; color: #fff;}
+#headerArea #gnb .bottom .sns{margin-left: 10%; float: left;overflow: hidden;}
+#headerArea #gnb .bottom .sns li{float: left;padding-right: 15px;}
+#headerArea #gnb .bottom .sns a{display: block;font-size:37px;}
+#headerArea #gnb .bottom .sns li:first-child i{color:#016bb7;}
+#headerArea #gnb .bottom .sns li:last-child i{color: rgba(29,161,242,1.00);;}
+/* login 버튼 */
+#content .login_logo a{display: block; text-indent: -999%; overflow: hidden; width: 179px; height: 58px;background: url(../images/logox2.png) ;margin-bottom: 30px;}
+
+
+/* 푸터공통 */
+#footerArea{background: #555555;color: #fff; }
+#footerArea .footer_inner{padding: 20px 10px;}
+#footerArea .footer_inner{}
+#footerArea .footer_inner .top_menu{ font-weight:700;font-family: 'Nanum Gothic', sans-serif;}
+#footerArea .footer_inner .top_menu ul{overflow: hidden;padding: 1%;}
+#footerArea .footer_inner .top_menu ul li{float: left;margin-right: 3%;}
+#footerArea .footer_inner .top_menu ul a{display: block; color: #fff;}
+#footerArea .footer_inner .footer_bottom{padding: 1%;}
+#footerArea .footer_inner .footer_bottom .add_copy{line-height: 20px;}
+#footerArea .footer_inner .footer_bottom .add_copy{}
+#footerArea .pc_version{background: rgba(172, 172, 172, 0.3); font-weight:700;text-align: center;}
+#footerArea .pc_version p{padding: 4% 0;font-family: 'Nanum Gothic', sans-serif;;}
+#footerArea .pc_version p a{display: block;color: #fff;}
+
+/*상단 이동 버튼*/
+.topMove{display:block;font-size: 35px;color: #056bb8; position: fixed;z-index:20; right:3%; bottom:120px;}
+
+
+

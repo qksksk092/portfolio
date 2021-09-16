@@ -1,0 +1,47 @@
+/* 기업소개 내용 영역 */
+
+#content .content_area{}
+#content .content_area h3{  font-weight: 700;font-size: 40px;text-align: center;}
+#content .content_area .line_dceo{display: block; width: 2px;height: 60px;background-color: #7bc242;margin:100px 0 100px 600px }
+#content .content_area .last{margin-right: 0;margin-bottom: 0;}
+#content .content_area .blue{color: #016bb7;}
+#content .content_area .green{color: #7bc242}
+#content .content_area .red{color:#ff0000}
+
+#content .content_area .morality1{position: relative;overflow: hidden; padding-bottom:230px;}
+#content .content_area .morality1 img{border-radius:40px 0 40px 0;float: right;}
+#content .content_area .morality1 p::after{border-radius:40px 0 40px 0;content: '';z-index: -1; top: 40px;right:50px;border: 1px solid rgb(209, 209, 209); position: absolute;width: 600px;height: 540px;}
+#content .content_area .morality1 h3{font-family: 'Nanum Gothic', sans-serif;font-weight:700;position: absolute;top: 70px;right: 420px;background: #fff;padding: 20px;border-radius: 5px;}
+#content .content_area .morality1 p{font-family: 'Nanum Gothic', sans-serif; font-size: 19px;float: left; width: 500px;line-height: 60px;margin-top: 200px;}
+
+#content .content_area .morality2{margin-bottom: 150px;}
+#content .content_area .morality2 h3{font-family: 'Nanum Gothic', sans-serif;font-weight:700;margin-bottom: 50px;}
+#content .content_area .morality2 .box_top p{text-align: center; margin: 0 50px; font-family: 'Nanum Gothic', sans-serif;  font-size: 25px;line-height: 50px; }
+#content .content_area .morality2 .box_bottom{overflow: hidden;margin-top: 100px;}
+#content .content_area .morality2 .box_bottom ol{position: relative; width: 275px;background: rgba(4, 94, 158, 0.2);margin-left: 50px;border-radius: 150px; float: left;position: relative;z-index: 1;}
+#content .content_area .morality2 .box_bottom ol li{width: 183px;height: 183px;background: #fff;border: 1px solid #016bb7;margin: 140px 0 140px 46px;border-radius: 50%;text-align: center;font-size: 17px;color: #016bb7;font-weight: 700;}
+#content .content_area .morality2 .box_bottom ol li img{margin: 20px 0;}
+#content .content_area .morality2 .box_bottom  ol::before{content: '';position: absolute;z-index: -1;top:150px;left:140px;background :#016bb7;width:1px;height: 1100px;}
+
+#content .content_area .morality2 .box_bottom .right{float: left;width: 795px;margin: 60px 0 0 50px;}
+#content .content_area .morality2 .box_bottom .right li{padding-bottom: 35px;}
+#content .content_area .morality2 .box_bottom .right dl{position: relative;}
+#content .content_area .morality2 .box_bottom .right dt{font-size: 1.571em;font-weight: 600;margin: 40px 0 30px 0;}
+#content .content_area .morality2 .box_bottom .right li:nth-of-type(2) dt::before{content: '';position: absolute;top: -20px;left: -185px;border-bottom: 2px dotted #016bb7;width: 1000px;}
+#content .content_area .morality2 .box_bottom .right li:nth-of-type(3) dt::before{content: '';position: absolute;top: -20px;left: -185px;border-bottom: 2px dotted #016bb7;width: 1000px;}
+#content .content_area .morality2 .box_bottom .right li:nth-of-type(4) dt::before{content: '';position: absolute;top: -20px;left: -185px;border-bottom: 2px dotted #016bb7;width: 1000px;}
+#content .content_area .morality2 .box_bottom .right dd:nth-of-type(1){font-size: 1.1em;line-height: 2em;color: #666;padding: 0;}
+#content .content_area .morality2 .box_bottom .right dd:nth-of-type(2){font-size: 1.1em;line-height: 2em;color: #666;padding: 0;}
+#content .content_area .morality2 .box_bottom .right dd:nth-of-type(3){font-size: 1.1em;line-height: 2em;color: #666;padding: 0;}
+#content .content_area .morality2 .box_bottom .right dd:nth-of-type(4){font-size: 1.1em;line-height: 2em;color: #666;padding: 0;margin-top: 30px;}
+
+#content .content_area .morality3{margin: 0 auto 150px;}
+#content .content_area .morality3 h3{font-family: 'Nanum Gothic', sans-serif;margin: 30px;}
+#content .content_area .morality3{background: url(../images/content3/morality3.jpg);width: 1000px;height: 700px;overflow: hidden;border-radius: 20px;}
+#content .content_area .morality3 div{font-family: 'Nanum Gothic', sans-serif;width: 720px;height:500px;margin: 70px auto ;background: rgba(255, 255, 255, .8);padding: 30px 50px; border-radius: 20px;}
+#content .content_area .morality3 p{font-size: 20px;}
+
+#content .content_area .morality3 ul{margin: 40px 0;}
+#content .content_area .morality3 li{line-height: 30px;margin-left: 60px;}
+
+

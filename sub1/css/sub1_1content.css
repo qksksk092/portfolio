@@ -1,0 +1,85 @@
+/* 기업소개 내용 영역 */
+#content .content_area {}
+#content .content_area .tab_menu {margin-bottom: 100px;font-family: 'Nanum Gothic', sans-serif;}
+#content .content_area .tab_menu ul {overflow: hidden;margin: 0 auto;width:576px;}
+#content .content_area .tab_menu ul li {position: relative;width: 190px; float: left;text-align: center;border: 1px solid #ccc;}
+#content .content_area .tab_menu ul li:hover {position: relative;border: 1px solid #016bb7;}
+#content .content_area .tab_menu ul li a {display: block; font-size: 1.143em; padding: 17px 0;color: #666;}
+#content .content_area .tab_menu ul li:hover a {}
+
+#content .content_area .last{margin-right: 0;}
+#content .content_area .blue{color: #016bb7;}
+#content .content_area .green{color:#7bc242}
+#content .content_area .red{color:#fd0202}
+#content .content_area .contlist{display: none;}
+#content .content_area{width: 1200px; margin: 0 auto; font-family: 'Nanum Gothic', sans-serif; }
+
+/* 인사말 */
+#content .content_area .con1{margin: 100px 0;}
+#content .content_area .con1 h3{font-family: 'Nanum Gothic', sans-serif;  font-weight: 700;font-size: 40px;text-align: center;margin-bottom: 100px;}
+#content .content_area .con1 p:first-of-type{text-align: center;margin-bottom: 60px;font-size: 28px;}
+#content .content_area .con1 .top{position: relative;}
+#content .content_area .con1 .top img{margin:0 auto;}
+#content .content_area .con1 .top span{display: block;position: absolute;top: 250px;right: 370px;background: rgb(223, 222, 222);padding: 20px; font-weight: 700;font-size: 30px;}
+.con1 .from_text{margin-top: 50px;}
+#content .content_area .con1 .from_text .from_title{margin-bottom:20px;  font-weight:700;font-size: 25px;}
+#content .content_area .con1 .from_text .from_txt{line-height: 30px;margin-bottom:30px;}
+
+
+/* 가치관 */
+#content .content_area .con2{margin-bottom: 150px;}
+#content .content_area .con2 h3{font-family: 'Nanum Gothic', sans-serif;  font-weight: 700;font-size: 40px;text-align: center;margin-bottom: 100px;}
+#content .content_area .con2 .inner{}
+
+#content .content_area .con2 .inner .top,.bottom{overflow: hidden;}
+#content .content_area .con2 .inner .top .left,.bottom .left{float: left;width: 600px;}
+#content .content_area .con2 .inner .top .left span,.bottom .left span{display: block;position: relative; font-family: 'Nanum Gothic', sans-serif;font-size: 25px;font-weight: 700;}
+#content .content_area .con2 .inner .top .left img,.bottom .left img{margin-top: 50px;}
+#content .content_area .con2 .inner .top .left_img {position: relative;}
+#content .content_area .con2 .inner .top .left_img img:first-child{}
+#content .content_area .con2 .inner .top .left_img img:last-child{position: relative;top: -130px;left: 150px;}
+#content .content_area .con2 .inner .top .right, .bottom .right{float: right;width: 500px;padding-top: 63px;}
+#content .content_area .con2 .inner .top .right span,.bottom .right span{display: block;position: relative; font-family: 'Nanum Gothic', sans-serif;padding: 100px 0 20px;font-family: 'Nanum Gothic', sans-serif;font-size: 25px;}
+#content .content_area .con2 .inner .top .right span::after,.bottom .right span::after{content: '';background: #ccc;height: 60px; width: 1px; position: absolute;top: 15px;left: 0;}
+#content .content_area .con2 .inner .top .right p,.bottom .right p{color: #666;line-height: 40px;}
+#content .content_area .con2 .inner .mid{overflow: hidden;margin-bottom: 150px;}
+#content .content_area .con2 .inner .mid .left{float: left;width: 500px;padding-top: 63px;}
+#content .content_area .con2 .inner .mid .left span{display: block;position: relative; font-family: 'Nanum Gothic', sans-serif;padding: 100px 0 20px;font-family: 'Nanum Gothic', sans-serif;font-size: 25px;;}
+#content .content_area .con2 .inner .mid .left span::after{content: '';background: #ccc;height: 60px; width: 1px; position: absolute;top: 15px;left: 0;}
+#content .content_area .con2 .inner .mid .left p{line-height: 40px;color: #666;}
+#content .content_area .con2 .inner .mid .right{float: right;}
+#content .content_area .con2 .inner .mid .right span{display: block;font-family: 'Nanum Gothic', sans-serif;font-size: 25px;font-weight: 700;}
+#content .content_area .con2 .inner .mid .right img{margin-top: 50px;}
+
+/*CI소개*/
+#content .content_area .con3{margin-bottom: 150px;}
+#content .content_area .con3 h3{font-family: 'Nanum Gothic', sans-serif;  font-weight: 700;font-size: 40px;text-align: center;margin-bottom: 100px;}
+#content .content_area .con3 .wordmark{}
+#content .content_area .con3 .wordmark .mark1,.mark2,.mark3{font-weight: 700; font-family: 'Nanum Gothic', sans-serif; font-size: 28px;margin-bottom: 50px;}
+#content .content_area .con3 .wordmark p{text-align: justify; margin-bottom: 20px; font-family: 'Nanum Gothic', sans-serif;line-height: 40px;font-size: 1.286em;color: #666;}
+#content .content_area .con3 .wordmark_inner{overflow: hidden;}
+#content .content_area .con3 .wordmark_inner img{float: left;}
+#content .content_area .con3 .wordmark_inner ul{float: right;padding: 100px 20px;}
+#content .content_area .con3 .wordmark_inner ul li{position: relative; font-family: 'Nanum Gothic', sans-serif; font-size:1.2em;margin-bottom: 50px;}
+#content .content_area .con3 .wordmark_inner ul li:first-of-type::after{content: '';border-bottom: 1px solid #7bc242;width: 110px; position: absolute;top:15px;left: -120px;}
+#content .content_area .con3 .wordmark_inner ul li:nth-of-type(2)::after{content: '';border-bottom: 1px solid #016bb7;width: 110px; position: absolute;top:12px;left: -120px;}
+#content .content_area .con3 .wordmark_inner ul li:first-of-type::before{content: '';background: #7bc242;width: 10px;height: 10px;border-radius: 50%; position: absolute;top:10px;left: -120px;}
+#content .content_area .con3 .wordmark_inner ul li:nth-of-type(2)::before{content: '';background: #016bb7;width: 10px;height: 10px;border-radius: 50%; position: absolute;top:8px;left: -120px;}
+#content .content_area .con3 .wordmark_inner ul li:last-of-type{color: #666;font-size: 1.0em;text-align: center;}
+
+#content .content_area .con3 .mark_all{overflow: hidden;}
+#content .content_area .con3 .mark_color{float: left;}
+#content .content_area .con3  h4{font-family: 'Nanum Gothic', sans-serif; font-size: 28px;margin-bottom: 50px;}
+#content .content_area .con3 .mark_color ul{overflow: hidden;float: left;}
+#content .content_area .con3 .mark_color li {float: left;margin-right: 40px;margin-bottom: 20px;font-size: 100%;}
+#content .content_area .con3 .mark_color li span{margin-bottom: 20px;width: 230px;height: 150px;}
+#content .content_area .con3 .mark_color li:nth-of-type(1) span{display: block; background: rgb(1, 107, 183);}
+#content .content_area .con3 .mark_color li:nth-of-type(2) span{display: block; background: #7cc242;}
+#content .content_area .con3 .mark_color li:nth-of-type(3) span{display: block; background: rgb(204, 204, 204);}
+#content .content_area .con3 .mark_color table{font-family: 'Nanum Gothic', sans-serif;text-transform: uppercase; font-size: 1.143em;font-weight: 500;width: 100%;}
+#content .content_area .con3 .mark_color table .tbody{}
+#content .content_area .con3 .mark_color table tr{}
+#content .content_area .con3 .mark_color table th{color: #999;padding: 5px 0;}
+#content .content_area .con3 .mark_color table td{padding: 5px 0;}
+#content .content_area .con3 .mark_color2{float: right;}
+#content .content_area .con3 .mark_color2 img{}

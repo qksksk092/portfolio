@@ -1,0 +1,33 @@
+/* 기업소개 내용 영역 */
+#content  .last{margin-right: 0;margin-bottom: 0;}
+#content .blue{color: #016bb7;}
+#content  .green{color: #7bc242}
+#content .red{color:#ff0000}
+#content .content_area{margin-top: 150px;}
+#content .content_area .con1{}
+#content .content_area h3{font-family: 'Nanum Gothic', sans-serif;  font-weight: 700;font-size: 40px;margin-bottom: 0px;text-align: center;}
+#content .content_area .con1 p{font-family: 'Nanum Gothic', sans-serif;text-align: center;margin-top: 30px; font-size: 20px;margin-bottom:100px }
+#content .content_area .con1 ul{overflow: hidden;margin-left: 50px;}
+#content .content_area .con1 ul li{float: left;border: 1px solid #999;width:498px;height:530px; margin-right: 80px;}
+#content .content_area .con1 ul .last{margin-right: 0;}
+#content .content_area .con1 ul li dl{}
+#content .content_area .con1 ul li dt{position: relative; font-family: 'Nanum Gothic', sans-serif;  font-weight:700;font-size: 25px ;background: rgba(1, 107, 183,.6);width: 50px; padding: 15px 170px;border-radius: 20px;margin: 170px 55px 30px 55px;}
+#content .content_area .con1 ul li:nth-of-type(1) dt::after{content: ''; background: url(../images/content1/heart.png)no-repeat; position: absolute;top: -130px;left: 150px;width: 100px;height: 100px;}
+#content .content_area .con1 ul li:nth-of-type(2) dt::after{content: '';background: url(../images/content1/responsibility.png)no-repeat;position: absolute;top: -130px;left: 150px;width: 100px;height: 100px;}
+#content .content_area .con1 ul li dd{font-family: 'Nanum Gothic', sans-serif;font-size: 20px;  font-weight:700;line-height: 40px;text-align: center;}
+#content .content_area .con1 ul li dd strong{color: red;}
+#content .content_area .con1 ul li dd:nth-of-type(1){margin-bottom: 100px;position: relative;font-size: 17px;}
+#content .content_area .con1 ul li dd::after{content: '';position: absolute;top: 70px;left: 0;background: #999;width: 497px;height: 1px;}
+
+#content .content_area .con2{margin-bottom: 150px;}
+#content .content_area h3{font-family: 'Nanum Gothic', sans-serif;  font-weight: 700;font-size: 40px;margin-top: 100px;text-align: center;}
+#content .content_area .con2 .con2_list{}
+#content .content_area .con2 .con2_list p{text-align: center; font-family: 'Nanum Gothic', sans-serif;font-size: 20px;line-height: 35px;margin-bottom: 80px;margin-top: 30px;}
+#content .content_area .con2 .con2_list p strong{color: red;}
+#content .content_area .con2 .con2_list ul{overflow: hidden;margin-left: 120px;}
+#content .content_area .con2 .con2_list ul li{float: left;width:190px}
+#content .content_area .con2 .con2_list dl dt{font-weight: bold; border: 7px solid #91c1e4;border-radius: 50%;width:90px;height: 55px;padding:60px 45px;line-height: 30px;text-align: center;}
+#content .content_area .con2 .con2_list dl dd{line-height: 35px; width: 150px;margin-top:30px;padding: 0 20px;text-align: center;}
+#content .content_area .con2>span{display: block; }
+#content .content_area .con2>span a{display: block;margin: 70px auto;color: #fff; border: 3px solid #91c1e4;background: #91c1e4;width: 200px;padding: 15px;border-radius: 15px;}
+#content .content_area .con2>span a:hover{display: block; background:none; border: 3px solid #91c1e4;color: #333;padding: 15px;box-shadow: 2px 2px 2px 1px #999;}

@@ -1,0 +1,47 @@
+/* 기업소개 내용 영역 */
+#content .content_area .last{margin-right: 0;}
+
+
+#content .content_area{width: 1200px; margin: 0 auto;font-family: 'Nanum Gothic', sans-serif;}
+#content .content_area .gallery{}
+#content .content_area .gallery h3{margin-bottom: 100px;  font-weight: 700;font-size: 40px;text-align: center;}
+#content .content_area .gallery .gallery_txt{overflow: hidden;border: 1px solid#999;}
+#content .content_area .gallery .gallery_txt img{float: left;}
+#content .content_area .gallery .gallery_txt dl{ float: left;width:300px;margin: 60px 10px 50px 40px;}
+#content .content_area .gallery dl dt{line-height: 50px; font-family: 'Nanum Gothic', sans-serif;  font-weight: 700;font-size: 35px;margin-bottom: 20px;}
+#content .content_area .gallery dl dd{text-align: justify; line-height: 35px;}
+#content .content_area .gallery dl .green{color: #7bc242;}
+#content .content_area .gallery dl .blue{color: #016bb7;}
+
+#content .content_area .convenience{margin-bottom: 150px;}
+#content .content_area .convenience h3{font-family: 'Nanum Gothic', sans-serif;margin-bottom: 100px;  font-weight: 700;font-size: 40px;text-align: center;margin-top: 150px;}
+#content .content_area .convenience p{font-family: 'Nanum Gothic', sans-serif;  font-weight:700; font-size: 30px;text-align: center;margin: 150px 0 80px 0;}
+#content .content_area .convenience p{}
+#content .content_area .convenience ul{overflow: hidden;margin:0 98px;}
+#content .content_area .convenience ul li{ float: left;line-height: 30px;width: 500px;height: 220px;text-align: center;border: 1px solid#ccc;padding:20px 0; }
+#content .content_area .convenience ul li strong{font-size: 20px;}
+#content .content_area .convenience ul li img{margin-bottom: 30px;}
+
+.map_wed{margin-bottom: 150px;}
+.map_wed h3{margin-bottom: 100px;  font-weight: 700;font-size: 40px;text-align: center;margin-top: 150px;}
+.map_wed #map{width: 1200px;height: 600px;border: 1px solid #999;}
+.map_wed .Information{overflow: hidden;margin-top: 80px;}
+.map_wed .Information dl{text-align: center; font-size: 20px;width: 400px;float: left;}
+.map_wed .Information dl dt{margin-bottom: 10px;font-weight: 700;}
+.map_wed .Information dd{}
+.map_wed .Information i{font-size: 25px;margin-right: 15px;color: #016bb7;}
+
+.map_wed .road{margin-top: 130px;}
+.map_wed .road ul{overflow: hidden;}
+.map_wed .road li{float: left;width: 570px;padding:0 15px;}
+.map_wed .road dl{}
+.map_wed .road dt{font-size: 25px;margin-bottom: 15px;}
+.map_wed .road i{margin-right: 15px;}
+.map_wed .road dd{line-height: 45px;font-size: 18px;}
+.map_wed .road span{padding: 3px;border-radius: 5px;color: #fff;margin-right: 10px;}
+.map_wed .road .Orange{background-color: Orange;}
+.map_wed .road .sky{background-color: skyblue;}
+.map_wed .road .green{background-color: green;}
+.map_wed .road .blue{background-color: blue;}
+
+

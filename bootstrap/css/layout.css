@@ -1,0 +1,220 @@
+body {font-family: 'Noto Sans KR', sans-serif;font-size: 16px;}
+table{border-collapse: collapse; border-spacing: 0;}
+address{font-style: normal}
+a{color: #333; text-decoration: none;list-style: none;}
+a:focus, a:hover {
+  color: #333;
+  text-decoration: none;
+}
+img{border: 0; vertical-align: top}
+ul,ol{list-style: none;}
+.hidden{position: absolute;display:block;width: 1px;height: 1px;left: -1000%;top: 0;overflow: hidden;color: #fff;}
+.wrap{width: 100%;margin: 0 auto; overflow: hidden;}
+.container-fluid {padding: 0;}
+#content{margin-top: 150px}
+.main_visual{margin-top: 60px;}
+/*  헤드라인 폰트 연결*/
+/*font-family: 'Noto Sans KR', sans-serif;*/
+/*font-family: 'Marck Script', cursive;*/
+/* waypoint에서 필요 */
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden;}
+.bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
+.delay-05s { animation-delay: 0.5s; }
+.delay-1s { animation-delay: 1s;}
+
+
+/*스킵네비게이션*/
+#skipNav{position:relative;width:100%;overflow:hidden;z-index: 10;}
+#skipNav a{display:block; height:1px; margin-bottom:-1px;
+   overflow:hidden; text-align:center; text-decoration:none; color:#333; font-size:16px;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{
+  display:block;height:auto;padding:10px 0; background: #f2f2f2;}
+/* 와이드 pc  */
+
+
+/* nav */
+.navbar{border: 0;margin-bottom: 0;height: 60px;background-color: #01319D;}
+.navbar-brand{padding: 0 15px;}   
+#headerArea nav .nav a{font-size: 22px;color: #fff;}
+#headerArea nav .nav a:hover,#headerArea nav .nav a:active{color: #FECE00;}
+#headerArea nav .container{width: 100%;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{margin-top: 10px;}
+
+/* about */
+.about .IKEA_img{}
+.about .IKEA_img img{width: 100%;}
+.about  h3{font-size: 2.6em;font-weight:700 ;margin-bottom: 3%;}
+.about .text p{line-height: 28px;margin-bottom: 0;}
+.about .text{}
+.about .life{margin-top: 80px;}
+.about .life .sub_tit h4{font-size: 2em;;margin-bottom: 20px;}
+.about .life .sub_tit >p{line-height: 28px;margin-bottom: 0;}
+.about .life .sub_text{margin-top: 50px;}
+.about .life .sub_text img{width: 100%;}
+.about .life .thumbnail {border: none;}
+
+/* new_product */
+.new_product{margin-top: 150px;}
+.new_product h3{font-size: 2.6em;font-weight:700 ;margin-bottom: 5%;}
+.new_product .thumbnail>img{width: 100%;}
+.new_product .caption dl{margin-bottom: 0;}
+.new_product .caption dl dd{margin:2% 0;}
+.new_product .caption ul{margin-top: 3%;}
+.new_product .caption li{width: 30.33%;}
+.new_product .caption img{width: 80%;}
+/* service*/
+.IKEA_service .col-xs-4 {padding: 0;}
+.navbar-collapse{border-top:none}
+
+.IKEA_service{margin-top: 150px;}
+.IKEA_service h3{text-align: center;font-size: 2.6em;font-weight:700 ;}
+.IKEA_service> p{padding:3% 0;font-size: 1.5em;}
+.IKEA_service .taps{margin-top: 100px;}
+.IKEA_service h4{font-size: 1.5em;font-weight:700;}
+.IKEA_service img{width: 100%;}
+.tab-pane{width: 90%;margin: 0 5%;}
+.IKEA_service .text{margin: 7% 0;}
+.IKEA_service .text h4{margin-bottom: 3%;}
+.IKEA_service .text p{line-height: 1.7em;}
+.nav-tabs>li {}
+.IKEA_service .immer_img{position: relative;width: 90%;margin: 0 5% 7%;}
+.IKEA_service .immer_img span{display: block;width: 100%; position: absolute;top: 40%;left: 0;font-family: 'Marck Script', cursive;font-size:5em;color: #fff;text-shadow: 3px 3px 2px rgb(0 0 0 / 40%);}
+.tab-pane .dl-horizontal dt {text-align: left;}
+
+/* service 개별*/
+.Kitchen .row {padding-left: 0;}
+.Kitchen .immer_img span{}
+.Kitchen .planning dt{margin-bottom: 5%;font-size: 1.1em;}
+.Kitchen .planning dd{line-height: 1.8em;line-height: 1.7em;}
+.interior .apply a{}
+.interior .dl-horizontal dd,.parts .dl-horizontal dd{margin-bottom: .2em;line-height: 1.7em;}
+.interior .apply a,.parts .apply a{display: block; width: 300px;margin: 0 auto;}
+.parts .apply{margin-top: 30px;}
+
+
+/* Showroom 개별*/
+.Showroom {margin-top: 150px;margin-bottom: 100px;}
+.Showroom h3{font-family: 'Marck Script', cursive;font-size: 3.5em;color: #999;}
+.Showroom >p{font-weight: 700;}
+.Showroom img{width: 100%;}
+.Showroom .row{position: relative;}
+.Showroom .btn_all .btn{height: 13px;width: 13px; border-radius: 50%;padding: 0;}
+.Showroom .btn_all .btn1{position: absolute;top: 35%;left: 30%;}
+.Showroom .btn_all .btn2{position: absolute;top: 67%;left: 57%;}
+.Showroom .btn_all .btn3{position: absolute;top: 80%;left: 20%;}
+.Showroom .btn_all .btn4{position: absolute;top: 90%;left: 60%;}
+.Showroom .btn_all .btn5{position: absolute;top: 40%;left: 70%;}
+.Showroom .btn_all .btn6{position: absolute;top: 20%;left:58%;}
+.Showroom .bottom{margin-top: 10%;}
+.Showroom .bottom p{line-height: 2.5em;font-size: 1.15em;padding: 0 5%;}
+.Showroom .more_Showroom{margin-top: 15%;}
+.Showroom .more_Showroom strong{display: block;font-size: 1.15em;}
+.Showroom .more_Showroom a{margin-top: 5%;width: 100px;background-color: #000;color: #fff;}
+/*footerArea*/
+#footerArea{background: #000;color: #fff;position: relative;}
+#footerArea .container{padding: 1% 0;font-size: 14px;}
+#footerArea .text-left{padding-left: 0;}
+#footerArea .top a{color: #fff;}
+/*상단 이동 버튼*/
+.topMove{display:block;font-size: 30px; position: fixed;z-index:20; left:95%; bottom:330px;transition: 1s; background: #01319D;color: #FECE00;}
+.topMove:focus, .topMove:hover{transform: translatey(-10px);  color: #FECE00;}
+
+/* 일반 pc */
+@media screen and (max-width:1199px) {
+
+}
+
+
+/* 태블릿 */
+@media screen and (max-width:991px) {
+  /*nav*/
+.navbar-default .navbar-nav>li>a {font-size: 17px;}
+.navbar-brand>img { width: 80%;padding-top: 5%;}
+.navbar-default .navbar-nav>li>a {font-size: 18px;text-align: center;}
+.navbar-default .navbar-toggle .icon-bar { background-color: #fff;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {border:none;margin-top: 10px;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {border: none;margin-top: 10px;}
+  /*about*/
+.about h3{font-size: 2.3em;}
+.about .life .sub_tit h4{font-size: 1.5em;margin-bottom: 10px;}
+
+.about .text {margin-bottom: 4%;}
+  /*new_product*/
+.new_product {margin-top: 100px;}
+.new_product h3 {font-size: 2.3em;}
+
+  /*IKEA_service*/
+.IKEA_service .immer_img span{font-size: 4em;}
+.IKEA_service {margin-top: 100px;}
+.IKEA_service h3 {font-size: 2.3em;}
+.Kitchen .planning dt {margin-bottom: 2%;}
+.IKEA_service> p {padding: 3% 0 1.5% ;font-size: 1.3em;}
+.IKEA_service .taps {margin-top: 70px;}
+.IKEA_service .immer_text {text-shadow: 5px 3px 0px rgb(0 0 0 / 70%)}
+  /*Showroom*/
+.Showroom .more_Showroom {margin-top: 5%;margin-bottom: 5%;}
+.Showroom .bottom p {line-height: 2em;}
+.Showroom .more_Showroom a{margin: 2% auto 0;}
+.Showroom .bottom {margin-top: 5%}
+.Showroom {margin-top: 100px;}
+}
+
+
+/* 소형 태블릿 */
+@media screen and (max-width:768px) {
+.navbar-nav{background: #01319D;margin:0 -15px; }
+.navbar-default .navbar-nav>li>a{color: #000;}
+#content {margin-top: 100px;}
+  /*about*/
+.IKEA_about .IKEA_img1{display: none;}
+.about .text { margin-bottom: 5%;}
+/*new_product*/
+.new_product .caption dl dd {
+  margin: 1% 0;
+}
+  /*.IKEA_service*/
+.IKEA_service {margin-top: 50px;}
+.IKEA_service .immer_img{width: 100%;margin: 0 0 7%;}
+.IKEA_service  .tab-pane .dl-horizontal dt {text-align: left;margin-bottom: 1%;}
+/*Showroom*/ 
+
+/*footerArea*/
+#footerArea .container {padding: 2%;}
+.topMove{left:90%;}
+
+}
+
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+  /*about*/
+.about .life {margin-top: 50px;}
+.about .life .sub_tit h4 {font-size: 2em;margin-bottom: 20px;}
+.about .icon span {font-size: 2.5em;}
+  /*IKEA_service*/
+.IKEA_service .immer_img span{font-size: 3em;}
+.IKEA_service .immer_text {left: 30%; font-size: 3em;}
+.IKEA_service nav li{padding-left: 0;padding-right: 0;}
+.Showroom .bottom p{font-size: 1.1em;line-height: 1.5em;}
+.IKEA_service> p {font-size: 1.2em;}
+.IKEA_service .taps {margin-top: 50px;}
+.about h3{font-size: 2em;}
+.about .life .sub_tit h4{font-size: 1.5em;}
+.IKEA_service h3 {font-size: 2em;}
+.new_product { margin-top: 100px;}
+.new_product h3 {font-size: 2em;}
+.Showroom {margin-top: 100px;}
+.Showroom h3 {font-size: 2em;}
+}
+
+@media screen and (max-width:320px) {
+#content {margin-top: 70px;}
+.about .col-xs-6 { width: 100%;}
+.IKEA_service .immer_text {left: 20%;font-size: 2em;}
+.IKEA_service  .nav>li>a { padding: 10px 5px;}
+.IKEA_service {margin-top: 50px;}
+.new_product {margin-top: 50px;}
+.Showroom {margin-top: 50px; margin-bottom: 50px;}
+.Showroom .bottom p { font-size: 1em;}
+.Showroom .more_Showroom strong {font-size: 1.1em;}
+}

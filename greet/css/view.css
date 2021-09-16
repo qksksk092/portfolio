@@ -1,0 +1,34 @@
+.content_area{margin:100px 0 150px 0;font-family: 'Nanum Gothic', sans-serif;}
+#view_title{ border-top: 1px solid #000;text-align: center; border-bottom: 1px solid #666;}
+#view_title1{padding: 25px 0;font-size: 30px;font-weight: 700;}
+#view_title2{padding-bottom: 20px;color: #666;}
+#view_content{padding: 50px 120px;line-height: 30px; text-align: justify; margin-bottom: 20px; border-bottom: 1px solid #ccc;}
+#view_button{overflow: hidden;}
+#view_button a{display: block; background: #016bb7;color: #fff;float: right;text-align: center;padding: 7px;margin-left: 10px;width: 50px;height: 20px;border-radius: 5px;}
+#view_button a:hover{background: #fff;border: 1px solid #016bb7;color: #016bb7;width: 48px;height: 18px;}
+.view_button2{ }
+.view_button2 a{color: #fff;display: block;text-align: center;background: #ccc;width: 50px; padding: 10px 70px; margin: 0 auto; border-radius: 7px;margin-top: 70px;height: 25px;}
+
+.view_button2 a:hover{background: rgb(185, 185, 185);}
+
+
+/* 댓글 */
+#ripple{}
+#ripple>span{display: block;font-size: 25px;font-weight: 700;margin-bottom: 15px;}
+#ripple #ripple_writer_title{overflow: hidden;margin-bottom: 10px;}
+#ripple #ripple_writer_title ul{margin-left: 10px;}
+#ripple #ripple_writer_title #writer_title1{}
+#ripple #ripple_writer_title #writer_title1 i{margin-right: 10px ;}
+#ripple #ripple_writer_title #ripple_content{margin: 5px 25px;}
+#ripple #ripple_writer_title #writer_tit{overflow: hidden;margin: 0 25px;}
+#ripple #ripple_writer_title #writer_title2{float: left;margin-right: 8px;color: #999;font-size: 14px;}
+#ripple #ripple_writer_title#writer_title3{float: right;}
+
+
+#ripple form{width: 100%;overflow: hidden;padding: 30px 0;}
+#ripple #ripple_box #ripple_box1{float:left;width: 8%;text-align: center;margin-top: 20px;}
+#ripple #ripple_box #ripple_box2{float: left;width: 90%;}
+#ripple #ripple_box #ripple_box2 textarea {width: 100%;}
+#ripple #ripple_box #ripple_box3{float:right;width: 8%;text-align: right;text-align: right;}
+#ripple #ripple_box #ripple_box3 a{display: block;padding: 15px;background: #999;color: #fff; text-align: center;}
+

@@ -1,0 +1,50 @@
+.content_area{margin-bottom: 150px;font-family: 'Nanum Gothic', sans-serif;}
+
+
+
+form{overflow: hidden;}
+form .list_searchs{overflow: hidden; width: 958px; height: 58px; border: 1px solid #ccc;  padding: 10px;margin: 0 auto 50px;border-radius: 10px;}
+form .list_searchs> div{float: left;}
+form .list_searchs select{font-family: 'Nanum Gothic', sans-serif;font-size: 14px;padding: 8px;border: solid 1px #ccc;width: 80px; margin: 10px 10px 0 175px;height: 38px;}
+form #list_search4 {margin: 7px;}
+form #list_search4 input{padding: 8px;width: 378px;margin: 0 10px 0 0; height: 20px;}
+form .list_searchs .list{float: left;}
+form .list_searchs .in1{border: 0;outline: 0; border-bottom: 1px solid #ccc;background: #fff;width: 300px;}
+form #list_search5{position: relative;margin-top: 15px;}
+form #list_search5 input{background: #016bb7;border-radius: 5px;border: 0;padding: 5px 20px;color: #fff;}
+
+
+form #list_search5{position: relative;}
+form #list_search5 input{background: #016bb7;border-radius: 5px;border: 0;padding: 5px 20px;color: #fff;}
+#page_button{overflow: hidden;}
+#page_button #page_num{text-align: center;padding: 30px 0;font-size: 19px;}
+#page_button #page_num a{}
+#page_button #button{float: right;padding: 20px;}
+#page_button #button a{border: 1px solid #ccc;padding: 5px 15px;border-radius: 5px;}
+#page_button .scale_list{float: left;border: 1px solid #ccc;padding: 5px;border-radius: 5px;}
+
+form #list_search{overflow: hidden;}
+form #list_search1{float: left;font-weight: 700;}
+form #list_search1 span{color: #016bb7;}
+form .scale_list{float: right;}
+form #list_search .scale_list select{border: 1px solid #ccc;padding: 5px;border-radius: 5px;}
+
+
+#list_top_title{background: rgba(1, 107, 183,.1);}
+#list_top_title table{width: 100%;margin: 25px auto 0;}
+#list_top_title table tr{}
+#list_top_title th{border-top: 1px solid #999;border-bottom: 1px solid #999;padding: 15px 0;}
+#list_top_title th:nth-of-type(1){width: 10%;}
+#list_top_title th:nth-of-type(2){width: 50%;}
+#list_top_title th:nth-of-type(3){width: 15%;}
+#list_top_title th:nth-of-type(4){width: 15%;}
+#list_top_title th:nth-of-type(5){width: 10%;}
+
+#list_item{overflow: hidden;border-bottom: 1px solid #ccc;}
+#list_item>div{float: left;text-align: center;padding: 15px 0;}
+#list_item #list_item1{width: 10%;}
+#list_item #list_item2{width: 50%;text-overflow: ellipsis;white-space: nowrap; overflow: hidden;}
+#list_item #list_item3{width:15%;}
+#list_item #list_item4{width: 15%;}
+#list_item #list_item5{width: 10%;}
+

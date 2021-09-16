@@ -1,0 +1,95 @@
+<?
+	session_start();
+    @extract($_SESSION); 
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <title>무림페이지</title>
+
+  <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+  <link rel="apple-touch-startup-image" href="startup.png">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="./css/sub2_1content.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+  <script src="../js/prefixfree.min.js"></script>
+  <script>
+    // <![CDATA[
+    try {
+      window.addEventListener('load', function () {
+        setTimeout(scrollTo, 0, 0, 1);
+      }, false);
+    } catch (e) {}
+    // ]]>
+  </script>
+  <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+  <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+
+
+  <div id="wrap">
+    <!--상단 헤더영역-->
+    <? include "../sub_head.html" ?>
+
+    <div class="main">
+      <h3>제품정보</h3>
+      <p>PRODUCT INFORMATION</p>
+    </div>
+
+    <article id="content">
+      <h2>인쇄용지</h2>
+      <img src="images/1_1top.jpg" alt="">
+
+      <p>첨단 컴퓨터 조절방식(DCS 및 QCS)으로 평량, 두께, 회분, 수분 등이
+        자동 조절되어 섬유배향성이 우수하고 종이의 치수안정성이 뛰어납니다.</p>
+      <div class="gallery">
+        <span>종류</span>
+        <ul class="img_ul thum">
+          <li><a href="#"><img src="images/printing1.jpg" alt="miilk"></a></li>
+          <li><a href="#"><img src="images/printing2.jpg" alt="miilk Photo"></a></li>
+          <li><a href="#"><img src="images/printing3.jpg" alt="miilk Green"></a></li>
+          <li><a href="#"><img src="images/printing4.jpg" alt="miilk PURE"></a></li>
+          <li><a href="#"><img src="images/printing5.jpg" alt="miilk Beige"></a></li>
+          <li><a href="#"><img src="images/printing6.jpg" alt="뉴백상지"></a></li>
+          <li><a href="#"><img src="images/printing6.jpg" alt="뉴클래식"></a></li>
+          <li><a href="#"><img src="images/printing8.jpg" alt="Hi-Q밀레니엄아트"></a></li>
+          <li><a href="#"><img src="images/printing9.jpg" alt="Hi-Q 듀오매트"></a></li>
+          <li><a href="#"><img src="images/printing10.jpg" alt="Hi-Q 편면아트"></a></li>
+          <li><a href="#"><img src="images/printing11.jpg" alt="Hi-Q 미스틱"></a></li>
+        </ul>
+        <ul id="text_ul" class="con">
+        </ul>
+      </div>
+
+
+    </article>
+    <!--하단 푸터 영역-->
+    <? include "../sub_foot.html" ?>
+
+  </div>
+
+
+
+  <script src="../js/jquery-1.12.4.min.js"></script>
+  <script src="../js/jquery-migrate-1.4.1.min.js"></script>
+  <script src="../js/fullnav.js"></script>
+  <script src="js/data-json.js"></script>
+  <script src="js/gallery.js"></script>
+
+</body>
+
+</html>

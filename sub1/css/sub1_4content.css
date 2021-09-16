@@ -1,0 +1,57 @@
+/* 기업소개 내용 영역 */
+#content .content_area .tab_menu {margin-bottom: 100px;font-family: 'Nanum Gothic', sans-serif;}
+#content .content_area .tab_menu ul {overflow: hidden;margin: 0 auto;width:1200px;}
+#content .content_area .tab_menu ul li {position: relative;width: 190px; float: left;text-align: center;border: 1px solid #ccc;}
+#content .content_area .tab_menu ul li:hover {position: relative;border: 1px solid #016bb7;}
+#content .content_area .tab_menu ul li a {display: block; font-size: 1.143em; padding: 17px 0;color: #666;}
+#content .content_area .tab_menu ul li:hover a {}
+
+#content .content_area{margin-bottom: 150px;}
+#content .content_area h3{font-family: 'Nanum Gothic', sans-serif;  font-weight: 700;font-size: 40px;text-align: center;margin-top: 120px;}
+#content .content_area .last{margin-right: 0;}
+
+#content .content_area h3{margin-bottom: 35px;}
+#content .content_area ul{margin-top: 150px;}
+#content .content_area ul li{line-height: 40px;}
+#content .content_area ul li strong{margin-right: 15px;font-family: 'Nanum Gothic', sans-serif;  font-weight: 700;font-size: 20px;}
+#content .content_area p{font-family: 'Nanum Gothic', sans-serif;  font-weight: 700;font-size: 20px; }
+
+.contlist{display: none}
+#content .content_area img{box-shadow: 2px 2px 5px 2px #999;}
+
+#content .content_area .con1{overflow: hidden;position: relative;}
+#content .content_area .con1 .img_box1{float: left;}
+#content .content_area .con1 .img_box1 img{margin-top: 350px;}
+#content .content_area .con1 .con_box1{float: right;}
+#content .content_area p::after{content: '';position: absolute;top: 260px;right: 480px;width: 1px; height: 100px; background: #999;}
+
+#content .content_area .con2{overflow: hidden;position: relative;}
+#content .content_area .con2 .img_box2{float: right;}
+#content .content_area .con2 .img_box2 img:first-child{position: absolute;top: 250px;right:100px ;}
+#content .content_area .con2 .img_box2 img:last-child{position: absolute;top: 520px;right: 0;}
+#content .content_area .con2 .con_box2{float: left;}
+#content .content_area .con2 p::after{content: '';position: absolute;top: 260px;left: 0;width: 1px; height: 100px; background: #999;}
+
+#content .content_area .con3{overflow: hidden;position: relative;}
+#content .content_area .con3 .img_box3{float: left;}
+#content .content_area .con3 img{margin-top: 230px;}
+#content .content_area .con3 .con_box3{float: right;}
+#content .content_area .con3 p::after{content: '';position: absolute;top: 260px;right: 510px;width: 1px; height: 100px; background: #999;}
+
+#content .content_area .con4{overflow: hidden;position: relative;}
+#content .content_area .con4 .img_box4{float: right;}
+#content .content_area .con4 img{margin-top: 220px;margin-right: 100px;}
+#content .content_area .con4 .con_box4{float: left;}
+#content .content_area .con4 p::after{content: '';position: absolute;top: 260px;left: 0;width: 1px; height: 100px; background: #999;}
+
+#content .content_area .con5{overflow: hidden;position: relative;}
+#content .content_area .con5 .img_box5{float: left;}
+#content .content_area .con5 img{margin-top: 170px;}
+#content .content_area .con5 .con_box5{float: right;}
+#content .content_area .con5 p::after{content: '';position: absolute;top: 260px;right: 380px;width: 1px; height: 100px; background: #999;}
+
+#content .content_area .con6{overflow: hidden;position: relative;}
+#content .content_area .con6 .img_box6{float: right;}
+#content .content_area .con6 img{margin-top: 200px;margin-right: 100px;}
+#content .content_area .con6 .con_box6{float: left;}
+#content .content_area .con6 p::after{content: '';position: absolute;top: 260px;left: 0;width: 1px; height: 100px; background: #999;}

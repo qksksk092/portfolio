@@ -1,0 +1,253 @@
+<?
+	session_start();
+    @extract($_SESSION); 
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>무림페이지</title>
+
+    
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+    <link rel="apple-touch-startup-image" href="startup.png">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+
+    <script src="js/prefixfree.min.js"></script>
+    <script>
+        // <![CDATA[
+        try {
+            window.addEventListener('load', function () {
+                setTimeout(scrollTo, 0, 0, 1);
+            }, false);
+        } catch (e) {}
+        // ]]>
+    </script>
+    <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+
+
+    <div id="wrap">
+        <!--상단 헤더영역-->
+        <? include "main_head.html" ?>
+
+
+        <div class="main">
+            <!-- 메인 겔러리 삽입부분 -->
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <img src="images/main1x2.png" alt="">
+                        <p><span> A company that creates value.</span>
+                            새로운 가치, ‘종이’를 통한 무한가능성</p>
+                    </li>
+                    <li>
+                        <img src="images/main2x2.png" alt="">
+                        <p><span> A company that communicates with customers.</span>
+                            편의와 보다 나은 가치, 신뢰받는 기업</p>
+                    </li>
+                    <li>
+                        <img src="images/main3x2.png" alt="">
+                        <p><span> A company that cares about the environment.</span>
+                            환경친화적 생산시스템, 다양한 친환경 종이 제품 개발</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <article id="content">
+            <h2 class="hidden">본문콘텐츠영역</h2>
+
+            <section class="about">
+                <span class="about_img">
+                    <img src="images/ABOUT1x2.png" alt="">
+                </span>
+                <div class="about_text">
+                    <h3>about moorim</h3>
+                    <p>
+
+                        단순히 종이를 만든다는 생각보다, 인류의 생활에 이바지하며 새로운 가치를 만들어간다는 사명감을 담아 ‘종이’를 통한 무한가능성을 제시하겠습니다.
+                    </p>
+                </div>
+                <a href="sub1/sub1_1.html"> more <i class="fas fa-arrow-right"></i></a>
+            </section>
+
+            <section class="sustainable">
+                <h3>sustainable</h3>
+
+                <div class="swiper-container mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/sustainable1x2.jpg" alt="">
+                            <a href="sub3/sub3_3.html">
+                                <p> Ethical Management
+                                    <span> 윤리경영</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/sustainable2x2.jpg" alt="">
+                            <a href="sub3/sub3_1.html">
+                                <p> Research & Developement
+                                    <span> R &amp; D</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/sustainable3x2.jpg" alt="">
+                            <a href="sub3/sub3_4.html">
+                                <p> social contribution
+                                    <span> 사회공헌</span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/sustainable4x2.jpg" alt="">
+                            <a href="sub3/sub3_2.html">
+                                <p> Moorim Green Management
+                                    <span> 환경경영</span>
+                                </p>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <section class="product">
+                <h3>product</h3>
+                <div class="product_tap">
+                    <div class="move_box tap">
+                        <ul>
+                            <li><a class="tap1" href="#"> 인쇄용지</a></li>
+                            <li><a class="tap2" href="#"> 산업용지</a></li>
+                            <li class="last"><a class="tap3" href="#"> 인스퍼</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="product_tap_gallery">
+                        <ul>
+                            <li>
+                                <div class="product_img">
+                                    <img src="images/PRODUCT1x2.jpg" alt="인쇄용지">
+                                </div>
+                                <div class="product_text">
+                                    <p>
+                                        코팅유무에 따라 도공지와 비도공지로 구분되며, 주로 인쇄 및 필기에 사용되는 용지입니다.
+                                        대량인쇄에 적합하여 주로 서적, 교과서, 다이어리, 간행물, 카탈로그, 캘린더 등 출판 및 전단 분야에 사용됩니다.
+                                        <span># miilk시리즈 # 백상지 # 코트지</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="product_img">
+                                    <img src="images/PRODUCT2x2.jpg" alt="산업용지">
+                                </div>
+                                <div class="product_text">
+                                    <p>
+                                        종이에 특수한 기능을 갖추어 여러 산업군에서 사용되는 종이입니다.
+                                        산소 및 수분을 차단하는 종이 포장재 프로테고, 섬유 원단에 간접 인쇄하는 전사지, 연소가 잘 되지 않아 안전한 난연벽지,
+                                        라벨 스티커에 사용되는 글라신지, 박리지 등이 있습니다.
+                                        <span># 백판지 # All-pulp # 특수지 # 감열지</span>
+
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="product_img">
+                                    <img src="images/PRODUCT3x2.jpg" alt="인스퍼">
+                                </div>
+                                <div class="product_text">
+                                    <p>
+                                        ‘inspiring’ 과 ‘paper’의 합성어로,
+                                        디자이너 곁에서 영감을 주는 종이가 되겠다는 의미를 담고 있습니다.
+                                        러프그로스지, 색지, 무늬지, 펄지, 티끌지 등 다양한 색상과 패턴으로 구성된
+                                        개성있는 팬시지입니다.
+                                        <span># 러프그로스지 # 색지 # 무늬지</span>
+
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="bulletin">
+                <h3>bulletin</h3>
+                <ul>
+                    <li>
+                        <div>
+                            <p><span>해상운송 운임 입찰</span> [Outbound]</p>
+                            <a href="sub4/sub4_1.html">view more</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <p><span>내륙운송 운임 입찰 </span>[Inbound & Outbound]</p>
+                            <a href="sub4/sub4_1.html">view more</a>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </article>
+        <!--하단 푸터 영역-->
+        <? include "main_foot.html" ?>
+
+    </div>
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/fullnav.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/tap.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "flip",
+            grabCursor: true,
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <script defer src="js/jquery.flexslider.js"></script>
+    <script>
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                animation: "slide"
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

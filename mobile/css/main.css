@@ -1,0 +1,61 @@
+/* CSS Document */
+.wrap{font-family: 'Nanum Gothic', sans-serif;}
+.main{color: #fff;font-weight:700}
+.main .m p:nth-of-type(1){width: 100%; position: absolute;top: 28%;right:0;text-align: center; font-size: 20px;}
+.main .m p:last-child{width: 100%;position: absolute;top: 38%;right:0;text-align: center;line-height:27px;}
+.main .m{overflow: hidden;position: relative;}
+.main{clear: both;}
+.main .flexslider .slides li{position: relative;}
+.main .flexslider .slides p{position: absolute;left:0; top:40%;font-family: 'Nanum Gothic', sans-serif;
+ width: 100%; text-align: center;line-height: 2em;font-size: 1em;}
+.main .flexslider .slides p span{display: block;font-family: 'Roboto', sans-serif;  font-size:1.7em ;margin-bottom: 25px;position: relative;}
+
+#content{margin-top: 50px;margin-bottom: 50px;}
+#content h3 {font-family: 'Roboto', sans-serif;font-size: 1.8em;font-weight: 700;
+   position: relative;text-transform: uppercase;}
+
+#content .about{margin-bottom: 70px;padding-right: 10%;}
+#content .about .about_img{margin-right: 10%;}
+#content .about .about_img img{width: 100%;}
+#content .about .about_text{padding-top: 7%;padding-left: 7%;}
+#content .about .about_text h3{text-align: left;letter-spacing:2px}
+#content .about .about_text p{margin-top: 1%;text-align: justify;font-size: 15px;line-height: 24px;}
+#content .about  a{display: block;width: 50px;padding: 10px 20px;border-radius: 40px;margin: 10% auto;
+ background: #016bb7;color: #fff;}
+
+ #content .sustainable{margin-bottom: 70px;position: relative;}
+#content .sustainable h3{text-align: center;margin-bottom: 30px;}
+.swiper-slide p{font-family: 'Nanum Gothic', sans-serif;color: #fff;font-weight:700;
+  position: absolute;width: 100%;text-align: center;padding:50px 0 ; background: rgba(51, 51, 51,.3); top: 25%;left: 0;}
+.swiper-slide p span{display: block;margin-top: 17px;font-size: 20px;}
+.swiper-container { width: 300px;height: 300px; padding: 50px;}
+.swiper-slide {position: relative; background-position: center;background-size: cover; width: 300px;height: 300px;}
+.swiper-slide img { display: block;width: 100%;}
+
+
+#content .product{margin-bottom: 70px;padding: 20px;font-family: 'Nanum Gothic', sans-serif;}
+#content .product h3{text-align: center;margin-bottom: 30px;}
+#content .product .product_tap{position: relative;  overflow: hidden;}
+#content .product .move_box{font-weight:400;}
+#content .product .move_box ul{}
+#content .product .move_box ul li{float: left;width: 33.33%;text-align: center;}
+#content .product .move_box ul li a{display: block;background: rgb(230, 228, 228);padding:10px 0 ;}
+#content .product .product_tap_gallery{} 
+#content .product .product_tap_gallery ul{}
+#content .product .product_tap_gallery ul li{margin-bottom: 20px;}
+#content .product .product_tap_gallery ul .product_img{}
+#content .product .product_tap_gallery ul img{width: 100%;}
+#content .product .product_tap_gallery ul .product_text{padding-top: 2%;}
+#content .product .product_tap_gallery ul .product_text p{line-height: 30px;}
+#content .product .product_tap_gallery ul .product_text p span{display: block; color: #999;}
+
+#content .bulletin{margin-bottom: 70px; font-family: 'Nanum Gothic', sans-serif;}
+#content .bulletin h3{text-align: center;margin-bottom: 30px;}
+#content .bulletin ul{}
+#content .bulletin li{margin: 15px 0;overflow: hidden;}
+#content .bulletin li:first-of-type{background: url(../images/bidding1.jpg) no-repeat right center;height: 150px;width: 100%;background-size:cover ;}
+#content .bulletin li:last-of-type{background: url(../images/bidding2.jpg) no-repeat right center;height: 150px;width: 100%;background-size:cover ;}
+#content .bulletin li div{background: rgba(0, 0, 0,.3);padding-top: 30px; text-align: center; height: 100%;width: 100%; color: #fff;}
+#content .bulletin p{font-size: 1.1em;}
+#content .bulletin span{display: block;font-size: 1.3em;}
+#content .bulletin a{color:#fff;display: block;margin-top: 10px;font-size: 1.25em;padding: 3px 0; border-top: 1px solid #fff;border-bottom: 1px solid #fff;}

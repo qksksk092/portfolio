@@ -1,0 +1,18 @@
+/* sub3 공통 영역 */
+.visual{margin-top: 170px;position: relative;width: 2000px;left:50%; margin-left:-1000px;}
+.sub_menu{width: 1200px;margin: 0 auto;position: relative;}
+.sub_title{color: #fff;position: absolute;width: 370px;top: -250px;left: 50%;margin-left: -185px;}
+.sub_menu h3{font-size: 40px;font-family: 'Nanum Gothic', sans-serif;text-align: center; }
+.sub_menu p{letter-spacing: 3px;text-transform: uppercase;margin: 20px 0 0 0;text-align: center;font-family: 'Roboto', sans-serif;}
+.sub_menu ul{overflow: hidden;width:800px;position: absolute;left: 50%;margin-left: -400px;top:-64px;border-bottom: 1px solid #ccc; background: #fff;border-radius: 10px 10px 0 0;}
+.sub_menu ul li{float: left;}
+.sub_menu ul li a{display: block;width:200px;font-family: 'Nanum Gothic', sans-serif;;font-size:18px ;padding: 20px 0;text-align:center;color: #333;transition: all .5s;}
+.sub_menu ul .current a{background: #016bb7; color: #fff;}
+.sub_menu ul li a:hover{background: #016bb7; color: #fff;}
+.sub_menu p{font-size: 18px;}
+
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative;}
+#content .title_area .line_map{font-size: .8em;position: absolute;top:-100px;right:20px;}
+#content .title_area h2{font-family: 'Nanum Gothic', sans-serif;font-size: 60px;text-align: center;margin:120px 0 ;}

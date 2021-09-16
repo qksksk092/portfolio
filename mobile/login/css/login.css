@@ -1,0 +1,20 @@
+#content{width: 94%; margin: 100px 3%; border: 1px solid #ccc; font-family: 'Nanum Gothic', sans-serif;
+    border-radius: 20px;padding:50px 0;background: #fff; }
+    #content .logo{text-align: center;}
+#content .logo a{margin: 30px auto;}
+#content form{width: 90%; margin: 0 auto;text-align: center;padding-top:50px;}
+#content .top{}
+#content .id_pw_input{}
+#content  table{width: 100%; margin: 0 auto;}
+#content #id_pw_input{}
+#content #id_pw_input tr{}
+#content #id_pw_input th{}
+#content #id_pw_input td{padding: 10px}
+#content #id_pw_input input{padding: 5px;outline: 0; border-radius: 2px;width: 100%;font-size: 1em; border: 0;border-bottom: 2px solid #ccc;}
+
+#content #login_button{margin: 30px auto;}
+#content #login_button button{cursor: pointer; width: 100%;padding: 10px 0; background-color: #016bb7;color: #ffe;border: none;}
+#content #login_button button:hover{background-color: #4999d3}
+#content #login_button a{display: block; cursor: pointer; width: 100%;padding: 10px 0; background-color: rgb(153, 151, 151);color: #ffe;margin-top: 10px;}
+#content #login_button a:hover{background-color: rgb(180, 176, 176);}
+

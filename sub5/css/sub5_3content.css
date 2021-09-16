@@ -1,0 +1,31 @@
+/* 기업소개 내용 영역 */
+
+#content .content_area{margin-top: 150px;}
+#content .content_area h3{font-family: 'Nanum Gothic', sans-serif;  font-weight: 700;font-size: 40px;margin-bottom: 70px;text-align: center;}
+#content  .last{margin-right: 0;margin-bottom: 0;}
+#content .blue{color: #016bb7;}
+#content  .green{color: #7bc242}
+#content .red{color:#ff0000}
+
+#content .content_area .con1{margin-bottom: 150px;}
+#content .content_area .con1 ul{overflow: hidden;margin-left:100px ;}
+#content .content_area .con1 ul li{position: relative; float: left;margin-right: 100px; font-family: 'Nanum Gothic', sans-serif; font-size: 28px; border: 5px solid #7bc242;border-radius: 50%;width: 115px;height:25px;padding: 120px 70px;text-align: center;}
+#content .content_area .con1 ul .last{margin-right: 0;}
+#content .content_area .con1 ul li:nth-of-type(1)::after{content: '';position: absolute;top: 120px;left: 290px;background: url(../images/content3/plus.png);width: 40px;height:40px;}
+#content .content_area .con1 ul li:nth-of-type(2)::after{content: '';position: absolute;top: 120px;right:-75px;background: url(../images/content3/plus.png);width: 40px;height:40px;}
+#content .content_area .con1 p{margin-top: 80px;line-height: 50px; font-family: 'Nanum Gothic', sans-serif; font-weight:700;font-size: 25px;text-align: center;}
+
+
+#content .content_area .con2{margin-bottom: 150px;}
+#content .content_area .con2 p{font-family: 'Nanum Myeongjo', serif;line-height: 50px; font-weight:700; font-size: 28px;margin-bottom: 80px;text-align: center;}
+#content .content_area .con2 ul{overflow: hidden;}
+#content .content_area .con2 ul li{float: left;;height: 120px; margin: 5px; float: left;height:210px ; width: 380px;border: 1px solid #999;position: relative;;}
+#content .content_area .con2 ul img{margin:50px 150px 20px 150px;}
+#content .content_area .con2 ul dl{}
+#content .content_area .con2 ul dl dt{font-family: 'Nanum Gothic', sans-serif;font-weight: 700;text-align: center;}
+#content .content_area .con2 ul dl dd{opacity: 0;width: 300px; height: 50px;padding: 80px 40px; color: #ccc;background: rgba(0, 0, 0, .7);position: absolute;top: 0;left:0;transition: all .5s  ; text-align: center;font-family: 'Nanum Gothic', sans-serif;font-weight: 700;font-size: 18px;}
+#content .content_area .con2 ul li:hover dd{opacity: 1;}
+
+
+
+

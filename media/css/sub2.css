@@ -1,0 +1,117 @@
+/*서브 비주얼 공통*/
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+
+#imgBG{
+	position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+
+}
+
+.videoBox span{font-family: 'Lobster', cursive;display: block;color: #d5b555;font-size: .3em;}
+.videoBox h2{background: rgba(51, 51, 51,.4);padding: 5% 0;
+   font-size: 10em;text-align: center;color: #fff; text-transform: uppercase;text-shadow: 3px 3px 2px rgba(0,0,0,.4);position: absolute;top: 30%;left: 0;width: 100%;}
+
+.down{display: block; font-size: 20px; position: absolute; 
+    left:50%; margin-left: -90px; bottom: 20%;
+   animation:ani 1s infinite  alternate;}
+@keyframes ani {
+   0% { transform:scale(1); opacity:1; color:#fff;}
+   100% { transform:scale(1.2); opacity:0.8; color:#888;}
+}	
+   
+#wrap{background: rgba(51, 51, 51,.3);}
+#content{ width:100%; margin:0 auto;color: #fff;}
+.cast .top h3{color: #d5b555; font-family: 'Lobster', cursive;padding:50px 0; font-size: 3em; font-weight:700;text-align: center;}
+
+
+.top{background: rgba(0, 0, 0, 0.8);padding:0 4%;color: #fff;}
+
+.top .Alice{padding: 70px 0;}
+.top .Alice .introduce{overflow: hidden;}
+.top .Alice .introduce .text{ float: left;width: 70%;font-size: 1.8em;text-align: center; line-height: 1.8em;}
+.top .Alice .introduce img{float: right;width:30% ;}
+.top .Alice .imgs{overflow: hidden;width: 90%;margin: 0 5%;}
+.top .Alice .imgs img{width: 32%;float: left;margin-right: 2%;box-sizing: border-box; border-radius: 5%;border: 7px  solid rgba(213, 181, 85,0);}
+.top .Alice .imgs img:last-child{margin-right: 0;}
+.top .Alice .imgs img:hover{border-radius: 5%;border: 7px  solid #d5b555;transition:  .5s;box-sizing: border-box;}
+.top .Mad_Hatter{padding: 70px 0;}
+.top .Mad_Hatter .introduce{overflow: hidden;}
+.top .Mad_Hatter .introduce .text{float: right;width: 70%;font-size: 1.8em;text-align: center; line-height: 1.8em;}
+.top .Mad_Hatter .introduce img{float: left;width:30% ;}
+.top .Mad_Hatter .imgs{overflow: hidden;width: 90%;margin: 0 5%;}
+.top .Mad_Hatter .imgs img{width: 32%;float: left;margin-right: 2%;box-sizing: border-box; border-radius: 5%;border: 7px  solid rgba(213, 181, 85,0);}
+.top .Mad_Hatter .imgs img:last-child{margin-right: 0}
+.top .Mad_Hatter .imgs img:hover{border-radius: 5%;border: 7px  solid #d5b555;transition: .5s;box-sizing:border-box;}
+.cast> p{font-size: 7em;font-family: 'Lobster', cursive;margin: 80px; text-align: center;}
+.bottom{display: flex;flex-wrap: wrap; background: rgba(0, 0, 0, 0.8);padding:3% 4%;overflow: hidden;}
+.bottom .con{float: left;width: 31.33%;margin: 2% 1%;overflow: hidden;}
+.bottom .con img{transition: .5s;width: 100%;border-radius: 5%;border: 5px solid rgba(213, 181, 85,0);box-sizing: border-box;}
+.bottom .con h3{color: #d5b555; font-size:2em;font-family: 'Lobster', cursive; font-weight:700;text-align: center;margin: 3% 0;}
+.bottom .con p{font-size:1.5em;text-align: center; }
+.bottom .con:hover img{border-radius: 5%;border: 5px solid #d5b555;box-sizing: border-box;}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+.videoBox span{font-size: .3em;}
+.videoBox h2{font-size: 8em;}
+
+.cast .top h3{font-size: 2.5em}
+.top .Alice .introduce img{display: none;}
+.Mad_Hatter .introduce img{display: none;}
+.top .Alice .introduce .text{margin-bottom: 50px; float: none;width: 100%; line-height: 1.5em;font-size: 2em;}
+.top .Mad_Hatter .introduce .text{margin-bottom: 50px; float: none;width: 100%;line-height: 1.5em;font-size: 2em;}
+
+.cast> p{font-size: 5em;margin: 60px;}
+
+
+}
+
+@media screen and (max-width:786px) {
+.videoBox h2{font-size: 6em;}
+.cast .top h3{font-size: 2em;padding:30px 0; }
+.top .Alice,.top .Mad_Hatter{padding: 40px 0;}
+
+.top .Alice .introduce .text{margin-bottom: 30px;}
+.top .Mad_Hatter .introduce .text{margin-bottom: 30px;}
+.top .Alice .imgs{width:100% ;margin: 0 }
+.top .Mad_Hatter .imgs{width:100% ;margin: 0 }
+.top .Alice .imgs img{width: 48%;float: left;margin:0 1%;border-radius: 5%;}
+.top .Mad_Hatter .imgs img{width: 48%;float: left;margin:0 1%;border-radius: 5%;}
+.top .Alice .imgs img:last-child{display: none;}
+.top .Mad_Hatter .imgs img:last-child{display: none;}
+.cast> p{font-size: 3em;margin: 55px;}
+.bottom{padding:4%;}
+.bottom .con p{font-size:1.25em; }
+.bottom .con{width: 48%;margin: 2% 1%;}
+.bottom .con img{width: 100%;border-radius: 5%;}
+.bottom .con h3{font-size:1.5em;margin: 3% 0;}
+.bottom .con >p{font-size:1.25em;}
+
+}
+
+@media screen and (max-width:640px) {
+   .videoBox h2{font-size: 4.5em;}
+   .top .Alice .imgs img:nth-of-type(1){display: none;}
+   .top .Alice .introduce .text{font-size: 1.25em;}
+   .top .Mad_Hatter .imgs img:nth-of-type(1){display: none;}
+   .top .Alice .imgs img{width: 100%;float: none;margin:0 ;}
+   .top .Mad_Hatter .imgs img{width: 100%;float: none;margin:0 ;}
+   .top .Mad_Hatter .introduce .text{font-size: 1.25em;}
+ 
+
+   .cast> p{font-size: 3.5em;margin: 40px;}
+   .bottom .con{float: none;width:100%;margin: 2% 1%;}
+   .bottom div h3{ font-weight:700;text-align: center;margin: 5% 0}
+   .bottom div >p{font-size:1.25em; }
+   .bottom .con{width: 100%;margin: 0 auto 5%}
+}
+
+@media screen and (max-width:480px) {
+}

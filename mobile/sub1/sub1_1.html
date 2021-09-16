@@ -1,0 +1,102 @@
+
+<?
+session_start();
+@extract($_SESSION); 
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>무림페이지</title>
+
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+    <link rel="apple-touch-startup-image" href="startup.png">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="./css/sub1_1content.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+
+
+    <script src="../js/prefixfree.min.js"></script>
+    <script>
+        // <![CDATA[
+        try {
+            window.addEventListener('load', function () {
+                setTimeout(scrollTo, 0, 0, 1);
+            }, false);
+        } catch (e) {}
+        // ]]>
+    </script>
+    <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+
+
+    <div id="wrap">
+        <!--상단 헤더영역-->
+        <? include "../sub_head.html" ?>
+
+        <div class="main">
+            <h3>회사정보</h3>
+            <p>company information</p>
+        </div>
+
+        <article id="content">
+
+
+            <div class="con1 contlist">
+                <h2>인사말</h2>
+
+                <div class="top_text">
+                    <p> "<span class="blue"> 무림페이퍼</span>를 찾아주신 여러분을 진심으로 환영합니다. "</p>
+                    <img src="images/ceo.jpg" alt="">
+                </div>
+                <dl>
+                    <dt><span class="green">종이</span>는 문화를 담는 <span class="blue">그릇</span>입니다.</dt>
+                    <dd>무림은 1956년 설립 이래 반세기가 넘게 한국의 제지산업을 선도해오면서 <mark>단순히 종이를 만든다는 생각보다 인류의
+                            문화발전에 이바지한다는 사명감</mark>으로 일해왔습니다. 무림은 우리나라의 문화산업이 꽃 필 수 있도록 지난 1959년
+                        국내 최초로인쇄용지 대량생산시대를 열었고, 1974년에는 국내에서 유일하게 펄프를 생산하면서 국내 제지산업이
+                        발전하는데 밑거름이 되었습니다.</dd>
+                    <dd class="d_last">또한 지난 2011년 5월에는 국내에서는 최초이자 유일한 펄프-제지 일관화공장을 완공하면서 한국의 제지산업이
+                        한 단계 도약할 수 있는 제지역사의 한 획을 그었습니다.</dd>
+
+                    <dt>무림은 <span class="blue">지구의 환경</span>을 먼저 생각하고 보호하는 <span class="green">친환경기업</span>입니다.</dt>
+                    <dd>제지산업은 천연림을 베어 종이를 만든다는 오해가 보편적입니다. 그러나 이와는 달리 제지산업은 나무를 심고 가꾸는 조림사업에 적극적이고 또한 순환 경작을 통해
+                        조림한 조림목과 간벌목을 이용해 펄프와 종이를 만들기 때문에 오히려 조림을 통해 이산화탄소를 흡수하고 있어 어느 산업보다도 친환경적입니다.</dd>
+                    <dd class="d_last">특히, 무림은 불법으로 벌채된 나무를 전혀 사용하지 않으며,<mark> 세계산림관리협의회가 인증한 FSC 인증 목재와 펄프만을
+                            사용</mark>하고 있습니다. 또한, 최근 완공한
+                        일관화공장은 기름 한 방울 쓰지 않고 종이를 생산하는 친환경 녹색공장이기도 합니다.</dd>
+
+                    <dt> <span class="blue">회사 홍보의 장</span> 이 아닌 <span class="green">의사소통의 장</span>이 되길 바랍니다.</dt>
+                    <dd class="d_last">무림의 홈페이지를 통해 무림을 조금 더 알고 이해되기를 바라며, 여러분의 의견이 무림에게 전해지는 소통의 장이 되기를 진심으로
+                        바랍니다.무림 홈페이지는
+                        일방적인 홍보의 장이 아닌 여러분과 의사소통의 장이 되도록 하겠습니다. 여러분의 많은 관심과 참여를 바랍니다. 감사합니다.</dd>
+                </dl>
+            </div>
+
+
+        </article>
+        <!--하단 푸터 영역-->
+        <? include "../sub_foot.html" ?>
+
+    </div>
+
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="../js/fullnav.js"></script>
+
+</body>
+
+</html>

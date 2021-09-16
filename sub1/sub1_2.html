@@ -1,0 +1,390 @@
+<?
+	session_start();
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>무림페이퍼:사업장정보</title>
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_2content.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="../common/js/prefixfree.min.js"></script>
+
+
+    <!--[if IE 9]>  
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="wrap">
+        <!--서브헤더영역-->
+        <? include "../common/sub_head.html" ?>
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+        </div>
+        <div class="sub_menu">
+            <div class="sub_title">
+
+                <h3>회사정보</h3>
+                <p>company information</p>
+            </div>
+
+            <ul>
+                <li><a href="sub1_1.html">회사개요</a> </li>
+                <li class="current"><a href="sub1_2.html">사업장소개</a> </li>
+                <li><a href="sub1_3.html">무림갤러리</a> </li>
+                <li class="last"><a href="sub1_4.html">연혁</a></li>
+            </ul>
+        </div>
+        <article id="content">
+
+            <div class="title_area">
+                <div class="line_map">
+                    HOME &gt; 회사정보 &gt; <strong>사업장소개</strong>
+                </div>
+                <h2>사업장소개</h2>
+            </div>
+
+            <div class="content_area">
+                <div id="box"></div>
+
+                <div class="company company_1">
+                    <div class="company_all">
+                        <img class="company_img" src="images/content2/company1.png" alt="무림페이퍼 공장">
+                        <div class="company_text">
+                            <span>친환경 종이 전문기업,</span>
+                            <h3>무림페이퍼</h3>
+                            <p>최고 품질의 아트지부터 산업용 인쇄용지, 이제 친환경 종합 제지기업으로 우리의 문화를 담겠습니다.</p>
+                            <ul>
+                                <li>설립일 : 1975년 12월</li>
+                                <li>자본금 : 1,040억</li>
+                                <li>위치 : 경상남도 진주시 남강로 1003</li>
+                                <li>연락처 : TEL. 055-751-1234 / FAX. 055-751-1235</li>
+                                <li>직원수 : 500여 명</li>
+                                <li>매출액 : 2020년 4,050억원</li>
+                            </ul>
+
+                            <div class="plus_menu">
+                                <div class="plus"> <a href="#"><i class="fas fa-hdd"></i>설비현황</a></div>
+                                <div class="plus"> <a href="#"><i class="fab fa-youtube"></i>소개영상</a></div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--팝업1-->
+                    <div class="modal_con con1">
+
+                        <div>
+                            <h4>설비현황</h4>
+                            <p>World Record 5관왕에 빛나는 설비
+                                최고의 품질은 바로 최고의 설비에서 나옵니다.</p>
+
+                            <table>
+                                <thead>
+
+                                    <tr>
+                                        <th scope="col"></th>
+                                        <th scope="col"> PM #1</th>
+                                        <th scope="col">PM #2 </th>
+                                        <th scope="col"> CM #2</th>
+                                        <th scope="col"> PM #3 </th>
+                                        <th scope="col"> CM #3</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">지폭(mm)</th>
+                                        <td>3,340</td>
+                                        <td>3,380</td>
+                                        <td>3,320 </td>
+                                        <td>3,600 </td>
+                                        <td>3,525</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">속도(m/min) </th>
+                                        <td>500</td>
+                                        <td>1,000</td>
+                                        <td>1,200 </td>
+                                        <td>1,500 </td>
+                                        <td>1,800</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">평량(g/m2)</th>
+                                        <td>90~375 </td>
+                                        <td>50~198 </td>
+                                        <td>100~350</td>
+                                        <td>45~248</td>
+                                        <td>50~300</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">생산량(tpd)</th>
+                                        <td>420 </td>
+                                        <td>440</td>
+                                        <td>850</td>
+                                        <td>550</td>
+                                        <td>500</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">제작사</th>
+                                        <td> Fuyo </td>
+                                        <td> VOITH </td>
+                                        <td> IHI </td>
+                                        <td> VALMET </td>
+                                        <td> IHI</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <a href="#">CLOSE</a>
+                        </div>
+                    </div>
+                    <!--팝업2-->
+                    <div class="modal_con con2">
+
+                        <div>
+                            <h4>소개영상</h4>
+                            <p>무림페이퍼를 소개합니다.</p>
+
+
+                            <iframe class="video_box" width="560" height="315"
+                                src="https://www.youtube.com/embed/7xXzPRiP-j0" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <a href="#">CLOSE</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="company company_2">
+                    <div class="company_all">
+                        <img class="company_img" src="images/content2/company2.png" alt="무림P&P 공장">
+                        <div class="company_text">
+                            <span>국내 유일의 펄프-제지 전문기업,</span>
+                            <h3>무림P&P</h3>
+                            <p>펄프-제지 일관화공장으로 세계를 향해 도약합니다.</p>
+                            <ul>
+                                <li>설립일 : 1974년 1월</li>
+                                <li>자본금 : 1,559억원</li>
+                                <li>위치: 울산 울주군 온산읍 우봉강양로 3-36 (온산산업단지내)</li>
+                                <li>연락처 :TEL. 052-231-7000 / FAX. 052-238-2190</li>
+                                <li>직원수 : 700여 명</li>
+                                <li>매출액 : 2020년 4,848억원 </li>
+                            </ul>
+
+                            <div class="plus_menu">
+                                <div class="plus"> <a href="#"><i class="fas fa-hdd"></i>설비현황</a></div>
+                                <div class="plus"> <a href="#"><i class="fab fa-youtube"></i>소개영상</a></div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--팝업3-->
+                    <div class="modal_con con3">
+
+                        <div>
+                            <h4>설비현황</h4>
+                            <p>연간 45만톤 규모의 최고품질의
+                                표백화학펄프를 생산하고 있습니다.</p>
+
+                            <ul>
+                                <li class="left">
+                                    <img src="images/content2/popup_01.jpg" alt="폐수처리시설(Waste Water Treatment)">
+                                    <p> <strong>폐수처리시설(Waste Water Treatment)</strong>
+                                        펄프제조과정에서 발생된 펄프폐수는 화학응집 → 미생물처리 → 화학응집 방식의 3단계 처리과정으로 완벽하게 오여물질 제거
+                                    </p>
+                                </li>
+                                <li class="right">
+                                    <img src="images/content2/popup_02.jpg" alt="증발기(Evaporation)">
+                                    <p><strong>증발기(Evaporation)</strong>증해 및 세척공정으로부터 얻어진 15~20% 고형분 농도의 희흑액을 회수보일러에서
+                                        연소하기
+                                        위한 고형분 함량 70%이상의 농흑액으로 증발시키는 공정</p>
+                                </li>
+                                <li class="left">
+                                    <img src="images/content2/popup_03.jpg" alt="회수보일러(Recovery Boiler)">
+                                    <p><strong>
+                                            회수보일러(Recovery Boiler)</strong>크라프트 펄프공장의 핵심 공정으로 증해공정에서 분리된 리그닌 성분(흑액)을
+                                        증발공정에서 증해에 사용된 약품을 회수하고 증기를 생산하는 공정</p>
+                                </li>
+                                <li class="right">
+                                    <img src="images/content2/popup_04.jpg" alt="건조공정 건조기/마감공정">
+                                    <p><strong>건조공정 건조기/마감공정</strong>표백펄프를 탈수, 건조시켜 최종 제품으로 생산하는 공정 / 최종 생산된 제품을 일정크기 및
+                                        무게로
+                                        포장하여 운송, 야적이 용이하게 하는 최종 공정</p>
+                                </li>
+                                <li class="left">
+                                    <img src="images/content2/popup_05.jpg" alt="증해공정 증해기">
+                                    <p><strong>증해공정 증해기</strong>목재 구성 성분 중 리그닌, 기타추출물을 용출시켜 셀룰로오스를 분리시키는 공정</p>
+                                </li>
+                                <li class="right">
+                                    <img src="images/content2/popup_06.jpg" alt="표백공정 반응 TOWER">
+                                    <p><strong>표백공정 반응 TOWER</strong>표백약품을 사용하여 증해된 미표백 펄프속의 잔류 리그닌을 제거함으로써 일정 수준의 백색도를
+                                        가진
+                                        표백펄프를 만들어내는 표백시설(ECF제품생산)</p>
+                                </li>
+                            </ul>
+
+
+                            <a href="#">CLOSE</a>
+                        </div>
+                    </div>
+                    <!--팝업4-->
+                    <div class="modal_con con4">
+
+                        <div>
+                            <h4>소개영상</h4>
+                            <p>무림P&P를 소개합니다.</p>
+
+
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/woVgkJbhCHg"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <a href="#">CLOSE</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="company">
+                    <div class="company_all">
+                        <img class="company_img" src="images/content2/company3.png" alt="무림SP 건물">
+                        <div class="company_text">
+                            <span>고부가가치 특수지 전문기업,</span>
+                            <h3>무림SP</h3>
+                            <p>첨단 기술 종이로 생활의 질을 높이겠습니다.</p>
+                            <ul>
+                                <li>설립일 : 1956년 7월</li>
+                                <li>자본금 : 110억원</li>
+                                <li>위치 : 대구광역시 북구 침산로 205</li>
+                                <li>연락처 : TEL. 053-351-8111 / FAX. 053-351-8120</li>
+                                <li>직원수 : 200여 명</li>
+                                <li>매출액 : 2020년 1,246억원</li>
+                            </ul>
+
+                            <div class="plus_menu">
+                                <div class="plus"> <a href="#"><i class="fas fa-hdd"></i>설비현황</a></div>
+                                <div class="plus"> <a href="#"><i class="fab fa-youtube"></i>소개영상</a></div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--팝업5-->
+                    <div class="modal_con con5">
+
+                        <div>
+                            <h4>설비현황</h4>
+                            <p>국내 최초 백상지 대량생산 시대를 연 무림SP
+                                이제는 첨단 특수지 생산으로 미래를 엽니다..</p>
+
+                            <table>
+                                <thead>
+
+                                    <tr>
+                                        <th scope="col"></th>
+                                        <th scope="col"> PM #1</th>
+                                        <th scope="col">PM #2 </th>
+                                        <th scope="col"> CM #1</th>
+                                        <th scope="col"> ccp #1 </th>
+                                        <th scope="col"> REWINDER #1</th>
+                                        <th scope="col"> REWINDER #2</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">지폭(mm)</th>
+                                        <td>2,280</td>
+                                        <td>1,340</td>
+                                        <td>1,300 </td>
+                                        <td>2,280</td>
+                                        <td>1,340</td>
+                                        <td>1,340</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">속도(m/min) </th>
+                                        <td>450</td>
+                                        <td>400</td>
+                                        <td>320</td>
+                                        <td>00 </td>
+                                        <td>1,500</td>
+                                        <td>750</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">평량(g/m2)</th>
+                                        <td>90~380</td>
+                                        <td>50~201 </td>
+                                        <td>200~400</td>
+                                        <td>90~380</td>
+                                        <td>50~300</td>
+                                        <td>50~180</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">생산량(tpd)</th>
+                                        <td>190 </td>
+                                        <td>60</td>
+                                        <td>45</td>
+                                        <td>70</td>
+                                        <td>180</td>
+                                        <td>53</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">제작사</th>
+                                        <td> Allimand </td>
+                                        <td> Allimand </td>
+                                        <td> IHI </td>
+                                        <td> IHI </td>
+                                        <td> JAGENBERG</td>
+                                        <td> -</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <a href="#">CLOSE</a>
+                        </div>
+                    </div>
+                    <!--팝업6-->
+                    <div class="modal_con con6">
+
+                        <div>
+                            <h4>소개영상</h4>
+                            <p>무림SP를 소개합니다.</p>
+
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/xbmxsNHy2h4"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <a href="#">CLOSE</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </article>
+
+    </div>
+
+    <!--서브푸터영역-->
+    <? include "../common/sub_foot.html" ?>
+
+
+    <!--JQuery-->
+    <script src="../common/js/jquery-1.12.4.min.js"></script>
+    <script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="../common/js/fullnav.js"></script>
+    <script src="./js/modal.js"></script>
+</body>
+
+</html>

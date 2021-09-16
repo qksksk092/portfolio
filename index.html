@@ -1,0 +1,383 @@
+<?
+	session_start();
+    @extract($_SESSION); 
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>무림페이퍼</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="common/css/common.css">
+    <link rel="stylesheet" href="maincss/maincss.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <script src="mainjs/mainpopup.js"></script>
+    <script src="common/js/prefixfree.min.js"></script>
+    <!--[if IE 9]>  
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+    <div class="wrap">
+        <!--상단 헤더영역-->
+        <? include "./common/main_head.html" ?>
+
+        <div class="visual">
+            <div class="gallery">
+                <ul>
+                    <li class="link1"><img src="./images/visual1.jpg" alt=''></li>
+                    <li class="link2"><img src="./images/visual2.jpg" alt=''></li>
+                    <li class="link3"><img src="./images/visual3.jpg" alt=''></li>
+                </ul>
+            </div>
+            <div class="gallery_text">
+                <ul>
+                    <li>
+                        A company that creates value.
+                        <span> 새로운 가치,<br>‘종이’를 통한 무한가능성</span>
+                    </li>
+                    <li>
+                        A company that cares about the environment.
+                        <span> 환경친화적 생산시스템, <br>다양한 친환경 종이 제품 개발</span>
+                    </li>
+                    <li>
+                        A company that communicates with customers.
+                        <span> 편의와 보다 나은 가치,<br>신뢰받는 기업</span>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="dock">
+                <span class="mbutton  btn1"></span>
+                <span class="mbutton  btn2"></span>
+                <span class="mbutton  btn3"></span>
+
+                <span class="ps"></span>
+            </div>
+        </div>
+
+        <article id="content">
+            <h2 class="hidden">본문영역</h2>
+            <section class="about">
+                <h3>about moorim</h3>
+                <ul>
+                    <li class="con1">
+                        <a href="sub1/sub1_2.html">
+                            <img src="images/a1.png" alt="">
+                            <div>
+                                <h4>사업장소개</h4>
+                                <p>도전과 혁신, 협력과프로정신을<br>가진 새로운 인재를 찾습니다.</p>
+
+                            </div>
+                        </a>
+
+                    </li>
+                    <li class="con2">
+                        <a href="sub3/sub3_1.html">
+                            <img src="images/a2.png" alt="">
+                            <div>
+                                <h4>R&D</h4>
+                                <p>종이의 꿈을 실현하는첨단 <br>기술의 R&D 연구 개발입니다.</p>
+
+                            </div>
+                        </a>
+
+                    </li>
+                    <li class="last">
+                        <a href="sub1/sub1_1.html">
+                            <img src="images/a3.png" alt="">
+                            <div>
+                                <h4>회사소개</h4>
+                                <p>지구의 환경을 먼저 생각하고<br>보호하는 친환경기업입니다.</p>
+
+                            </div>
+                        </a>
+
+                    </li>
+                </ul>
+                <p class="about_last">
+                    생활에 가치를 더하는 펄프, 제지기술<br>
+                    펄프의 가능성, 무림이 만드는 제지의 새로운 미래!<br>
+                </p>
+            </section>
+
+
+
+            <section class="sustainable">
+                <h3>sustainable</h3>
+                <div id="sustainable_slide">
+                    <div class="sustainable_slide_gallery">
+                        <ul>
+                            <li>
+                                <div class="sustainable_text">
+                                    <dl>
+                                        <dt>Moorim Green Management</dt>
+                                        <dt>환경경영</dt>
+                                        <dd>그린경영체계를 구축, 3대 전략을 수행하며 정부의 저탄소녹색성장과
+                                            함께하는 친환경 기업으로 앞장서고 있습니다. 투명한 그린경영으로 고객에게 올바른 정보를 제공하겠습니다.</dd>
+                                        <dd>무림이 종이를 만드는 일이 곧 지구를 푸르게 가꾸는 일입니다.
+                                            직접 조림하여 기름 없이 펄프를 만들어내고, 이 과정에서 만들어진 에너지를
+                                            소중히 사용하는 지혜로운 방법으로 종이를 만들고 있습니다.</dd>
+
+                                        <dd class="detail_menu">
+                                            <span class="detail">기후변화대응</span>
+                                            <span class="detail">친환경제품</span>
+                                            <span class="detail">친환경시스템</span>
+
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="sustainable_img_box">
+                                    <a href="sub3/sub3_2.html"><span>view more</span>
+                                        <img src="images/natural1.jpg" alt="">
+                                        <img src="images/natural2.jpg" alt="">
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="sustainable_text">
+                                    <dl>
+                                        <dt>Moorim Ethical Management</dt>
+                                        <dt>윤리경영</dt>
+                                        <dd>투명하고 공정한 경쟁과 타인을 배려하고 존중하는 가치를 기반으로, 고객, 협력업체, 공동체 등
+                                            모든 이해관계자와 더불어 함께 성장하고 발전하겠습니다.</dd>
+                                        <dd> 투명한 경영혁신을 통해 회사의 경쟁력을 높이고 사회 발전에 기여함으로써 고객에 신뢰받는 기업, 시장이 원하는 기업, 사회로부터 존경받는
+                                            기업으로 자리매김하겠습니다.</dd>
+                                        <dd class="detail_menu">
+                                            <span class="detail">법률적책임</span>
+                                            <span class="detail">윤리적책임</span>
+                                            <span class="detail">경제적책임</span>
+                                            <span class="detail">사회적책임</span>
+
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="sustainable_img_box">
+                                    <a href="sub3/sub3_3.html"><span>view more</span>
+                                        <img src="images/ethical1.jpg" alt="">
+                                        <img src="images/ethical2.jpg" alt="">
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="sustainable_text">
+                                    <dl>
+                                        <dt>Moorim social contribution</dt>
+                                        <dt>사회공헌</dt>
+                                        <dd>혼자 웃는 1위 기업이 아니라 모두가 행복한 세상을 만들어 가겠습니다.
+                                            펄프∙제지 기술로 생활에 가치를 더한다는 것은 사회에 그저 도움을 준다는 생각이 아니라
+                                            더 큰 기회와 행복의 씨앗을 심겠다는 무림의 의지입니다</dd>
+                                        <dd> 진정한 나눔의 문화를 확산시키기 위한 무림의 노력은 계속됩니다</dd>
+                                        <dd class="detail_menu">
+                                            <span class="detail">무림사랑나누미</span>
+                                            <span class="detail">남강사랑그림축제</span>
+                                            <span class="detail">무림메세나</span>
+
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="sustainable_img_box">
+                                    <a href="sub3/sub3_4.html"><span>view more</span>
+                                        <img src="images/social1.jpg" alt="">
+                                        <img src="images/social2.jpg" alt="">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="move_box">
+                        <a href="javascript:void(0);">
+                            <span class="hidden">왼쪽으로 이동</span>
+                            <i class="fas fa-chevron-left sustainable_btn pb1"></i>
+                        </a>
+                        <span><strong>1 </strong> &#47; 3</span>
+                        <a href="javascript:void(0);">
+                            <span class="hidden">오른쪽으로 이동</span>
+                            <i class="fas fa-chevron-right sustainable_btn pb2"></i>
+                        </a>
+                    </div>
+
+
+                </div>
+            </section>
+
+
+            <section class="product">
+                <h3>product</h3>
+                <div class="product_tap">
+                    <div class="product_tap_gallery">
+                        <ul>
+                            <li>
+                                <div class="product_text">
+                                    <dl>
+                                        <dt>인쇄용지 <span>PRINTING & WRITING PAPER</span></dt>
+                                        <dd>
+                                            코팅유무에 따라 도공지와 비도공지로 구분되며, 주로 인쇄 및 필기에 사용되는 용지입니다.
+                                            대량인쇄에 적합하여 주로 서적, 교과서, 다이어리, 간행물, 카탈로그, 캘린더 등 출판 및 전단 분야에 사용됩니다.
+                                        </dd>
+
+                                        <dd>#밀크시리즈</dd>
+                                        <dd>#백상지</dd>
+                                        <dd>#코트지</dd>
+                                    </dl>
+                                    <a href="sub2/sub2_1.html"> view more<i class="fas fa-arrow-right"></i></a>
+
+                                </div>
+                                <div class="product_img">
+                                    <img src="images/product1.jpg" alt="">
+                                    <span class="color_card"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="product_text">
+                                    <dl>
+                                        <dt>산업용지 <span>SPECIALTY PAPER</span></dt>
+
+                                        <dd>
+                                            종이에 특수한 기능을 갖추어 여러 산업군에서 사용되는 종이입니다.
+                                            산소 및 수분을 차단하는 종이 포장재 프로테고, 섬유 원단에 간접 인쇄하는 전사지, 연소가 잘 되지 않아 안전한 난연벽지,
+                                            라벨 스티커에 사용되는 글라신지, 박리지 등이 있습니다.
+
+                                        </dd>
+                                        <dd>#백판지</dd>
+                                        <dd>#All-pulp</dd>
+                                        <dd>#특수지</dd>
+                                        <dd>#감열지</dd>
+                                    </dl>
+                                    <a href="sub2/sub2_2.html">view more<i class="fas fa-arrow-right"></i></a>
+
+                                </div>
+                                <div class="product_img">
+                                    <img src="images/product2.jpg" alt="">
+                                    <span class="color_card2"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="product_text">
+                                    <dl>
+                                        <dt>인스퍼 <span>SPECIALTY PAPER</span></dt>
+
+                                        <dd>
+                                            ‘inspiring’ 과 ‘paper’의 합성어로,
+                                            디자이너 곁에서 영감을 주는 종이가 되겠다는 의미를 담고 있습니다.
+                                            러프그로스지, 색지, 무늬지, 펄지, 티끌지 등 다양한 색상과 패턴으로 구성된
+                                            개성있는 팬시지입니다.
+                                        </dd>
+                                        <dd>#러프그로스지</dd>
+                                        <dd>#색지</dd>
+                                        <dd>#무늬지</dd>
+                                    </dl>
+                                    <a href="sub2/sub2_3.html">view more<i class="fas fa-arrow-right"></i></a>
+                                </div>
+                                <div class="product_img">
+                                    <img src="images/product3.jpg" alt="">
+                                    <span class="color_card3"></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="move_box">
+                        <ul>
+                            <li><a href="#"><i class="fas fa-print"></i><span>인쇄용지</span></a></li>
+                            <li><a href="#"><i class="fas fa-toilet-paper"></i><span>산업용지</span></a></li>
+                            <li class="last"><a href="#"> <i class="fas fa-swatchbook"></i><span>인스퍼</span>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="recruit">
+                <div class="opacity_box"></div>
+                <div class="recruit_inner">
+                    <h3><strong class="green">무림</strong>과 함께할 <strong class="blue">인재</strong>를 찾습니다</h3>
+                    <p>국내 최고의 펄프·제지 기술로 생활에 가치를 더하다.<br>
+                        무림은 도전과 혁신, 협력과 프로정신을 가진 새로운 인재를 찾습니다.
+                    </p>
+                    <a href="sub5/sub5_1.html">view more</a>
+                </div>
+
+            </section>
+            <? include "./lib/func2.php"; ?>
+
+            <div class="report">
+                <div class="news_back"></div>
+                <section class="news">
+                    <div class="sub_title">
+                        <h3>news</h3>
+                        <p> 국내 최고의 펄프·제지 기술로</p>
+                        <p> <span class="green">생활</span> 에 <span class="red"> 가치</span> 를 더하다</p>
+
+                        <p>무림이 만드는 건강한 내일입니다.</p>
+                    </div>
+
+                    <div class="in_news">
+                        <ul>
+                            <? latest_article("concert", 3, 25, 2); ?>
+                        </ul>
+                    </div>
+                    <div class="more_btn">
+                        <a href="./concert/list.php">view more
+                            <i class="fas fa-plus"></i>
+                        </a>
+
+                    </div>
+                </section>
+
+
+            </div>
+
+
+        </article>
+
+
+        <!--하단 푸터 영역-->
+        <? include "./common/main_foot.html" ?>
+
+    </div>
+
+
+    <!--공지팝업-->
+
+    <div id="showimage" style="z-index:40;position:absolute;width:322px;;left:100px;top:250px;">
+        <script>
+            function closeWin() {
+                var chk = document.getElementById('Notice')
+                if (chk.checked) {
+                    setCookie("Notice", "done", 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+                }
+            }
+            if (getCookie("Notice") == "done") {
+                hidebox();
+            }
+        </script>
+        <div>
+            <img src="popup/popup.png"
+                alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다." />
+        </div>
+        <div style="font-size:12px;text-align:center;color:#fff;">
+            <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은
+                이창을 열지 않음.</label>
+            <a style="color: #fff" href="#" onclick="closeWin();hidebox();return false;"> [close] </a>
+        </div>
+    </div>
+
+
+
+
+    <!--JQuery-->
+    <script src="common/js/jquery-1.12.4.min.js"></script>
+    <script src="common/js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="common/js/fullnav.js"></script>
+    <script src="mainjs/main.js"></script>
+</body>
+
+</html>

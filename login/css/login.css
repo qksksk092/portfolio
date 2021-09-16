@@ -1,0 +1,42 @@
+#content{width: 1100px; height: 500px; margin: 100px auto; border: 1px solid #ccc; font-family: 'Nanum Gothic', sans-serif;
+    border-radius: 20px;padding:50px 0;background: #fff; }
+#content .logo a{margin: 30px auto;}
+#content form{width: 90%; margin: 0 auto;overflow: hidden; text-align: center;padding-top: 70px;}
+#content .left{float: left;width: 50%;}
+#content .id_pw_input{}
+#content  table{width: 100%; margin: 0 auto;}
+#content #id_pw_input{}
+#content #id_pw_input tr{}
+#content #id_pw_input th{}
+#content #id_pw_input td{padding: 10px}
+#content #id_pw_input input{padding: 5px;outline: 0; border-radius: 2px;width: 70%;font-size: 1em; border: 0;border-bottom: 2px solid #ccc;}
+#content #login_button{margin: 30px auto;width: 311px;}
+#content #login_button button{cursor: pointer; width: 311px;padding: 10px 0; background-color: #016bb7;color: #ffe;border: none;}
+#content #login_button button:hover{background-color: #4999d3}
+#content #login_button a{display: block; cursor: pointer; width: 311px;padding: 10px 0; background-color: rgb(153, 151, 151);color: #ffe;margin-top: 10px;}
+#content #login_button a:hover{background-color: rgb(180, 176, 176);}
+#content .find{width: 350px;margin:10px 0 0 80px}
+#content .find ul{overflow:hidden;font-size: 14px;}
+#content .find li:nth-of-type(1){float: left;margin-right: 50px;}
+#content .find li:nth-of-type(1) i{margin-right: 5px;}
+#content .find li:nth-of-type(2){float: left;}
+#content .find li:nth-of-type(2) span{margin: 0 10px;}
+
+#content .right{float: right;width: 50%;}
+#content .view{overflow: hidden;}
+#content .view a{display: block;float: left;padding:30px 0; ;width: 45%; border: 1px solid #ccc;}
+#content .view a:first-child{}
+#content .view a:last-child{}
+#content .view a:hover{border: 1px solid #016bb7;color: #016bb7;}
+#content .view a:hover i{color: #016bb7;}
+#content .view i{display: block;font-size: 30px;margin-bottom: 15px;}
+#content #join_button{position: relative;padding-top:30px;text-align: left;}
+#content #join_button p:nth-of-type(1){font-size: 25px;}
+#content #join_button p:nth-of-type(2){margin: 10px;}
+#content #join_button a{display: block ;text-align: center; border: 1px solid #016bb7;width: 150px;padding: 5px 0;margin: 0 auto;
+border-radius: 15px;}
+#content #join_button a:hover{background:#5791bb;color: #fff;border:none;}
+#content #join_button i{color: #016bb7;}
+#content #join_button a:hover i{color:#fff}
+
+

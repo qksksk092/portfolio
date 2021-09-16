@@ -1,0 +1,65 @@
+{
+  "events": [
+    {
+      "pulpimg": "images/content2/pulp1.png",
+      "numb": "01",
+      "numbtitle": "나무(Wood)",
+      "numbtext": "참나무(Oak)에 Eucalypus 등 혼합한 활엽수를 주로 씀"
+    },
+    {
+      "pulpimg": "images/content2/pulp2.png",
+      "numb": "02",
+      "numbtitle": "목재칩(Wood Chip)",
+      "numbtext": "공법상 기계펄프, 반 화학펄프, 화학펄프로 나뉘어지며 무림P&P의 제품은 화학펄프 중 크라프트 펄프임"
+    },
+    {
+      "pulpimg": "images/content2/pulp3.png",
+      "numb": "03",
+      "numbtitle": "증해공정(Cooking)",
+      "numbtext": "증해약품을 이용해 목재칩 (Wood Chip)을 고온, 고압의 압력 용기인 증해기(Digester)에서 증해(Cooking)함으로써 섬유질과 섬유질을 결속시키는 리그닌을 약화시키는 공정"
+    },
+    {
+      "pulpimg": "images/content2/pulp4.png",
+      "numb": "04",
+      "numbtitle": "세척공정(Washing)",
+      "numbtext": "섬유소(Fiber)에서 분리된 리그닌을 물로 씻어내는 공정"
+    },
+    {
+      "pulpimg": "images/content2/pulp5_7.png",
+      "numb": "05",
+      "numbtitle": "1차 정선공정(Screening)",
+      "numbtext": "세척공정을 거친 섬유소(Fiber) 에서 이물질 분리하고 순수한 펄프 성분만 건져냄"
+    },
+    {
+      "pulpimg": "images/content2/pulp6.png",
+      "numb": "06",
+      "numbtitle": "표백공정(Bleaching)",
+      "numbtext": "표백약품을 사용해 산화, 환원 반응을 통해 미표백 펄프 속에 함유되어 있는 착색 성분을 탈색 또는 제거하여 원하는 수준의 백색도를 얻는 공정"
+    },
+    {
+      "pulpimg": "images/content2/pulp5_7.png",
+      "numb": "07",
+      "numbtitle": "2차 정선공정(Screening)",
+      "numbtext": "미세한 이물질을 분리함"
+    },
+    {
+      "pulpimg": "images/content2/pulp8.png",
+      "numb": "08",
+      "numbtitle": "조공정(Drying)",
+      "numbtext": "표백된 펄프를 건조시키는 공정으로서 크게 초지부, 압착부, 건조부 3단계로 구분됨 이 과정을 거치면서 2% 수준에서 80% 수준 까지 펄프를 건조시킴"
+    },
+    {
+      "pulpimg": "images/content2/pulp9.png",
+      "numb": "09",
+      "numbtitle": "마감공정(Finishing)",
+      "numbtext": "최종 생산된 제품을 일정 크기 및 무게로 포장해 야적과 운송이 용이하도록 하는 공정 제품 생산 공정 중 마지막 공정임"
+    },
+    {
+      "pulpimg": "images/content2/pulp10.png",
+      "numb": "10",
+      "numbtitle": "운송(Delivery)",
+      "numbtext": "포장을 마친 펄프는 국내 각 제지사로 운송됨"
+  
+    }
+  ]
+}

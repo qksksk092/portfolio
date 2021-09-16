@@ -1,0 +1,28 @@
+/* 공 통 */
+
+#content .last{margin-right: 0;}
+.contlist{padding: 0 5%;}
+#content .blue{color:#016bb7}
+#content .green{color:#7bc242}
+#content .current{position: relative;}
+#content .current::before{content: '';background: #FFF;width: 6px;height: 6px;border-radius: 50%;position: absolute;top: 0;left: 15px;}
+.main p{color: #fff; letter-spacing: 1px;text-transform: uppercase;font-size: 13px;text-align: center;padding: 5px 0 ;}
+
+.main{height: 130px; background: url(../images/main.jpg) center no-repeat;background-size:cover;border-radius:0 0 15px 15px;}
+.main h3{text-shadow: 1px 1px 3px #666;padding: 40px 0 0 20px;text-align: center; font-family: 'Nanum Gothic', sans-serif;color: #fff; font-weight: 700;font-size: 25px;}
+
+/*개별*/
+#content{}
+
+.con1{clear: both;}
+.con1 h2{font-family: 'Nanum Gothic', sans-serif;font-size: 30px;font-weight: 700;text-align: center;padding: 30px 0;}
+.con1 .top{}
+.con1 .top_text{ padding: 0 2%; font-family: 'Nanum Gothic', sans-serif;}
+.con1 .top_text> span{display: block; font-size: 18px;font-weight: 700;margin: 20px 0;}
+.con1 .top_text p{line-height: 1.8em;margin-bottom: 20px;font-size: 16px;position: relative; text-align: center;font-weight: 700;}
+.con1  img{width: 100%; border-radius: 15px;}
+.con1 dl{margin-top: 50px;}
+.con1 dl dt{font-family: 'Nanum Gothic', sans-serif;line-height: 1.9em;font-size: 18px;margin-bottom: 15px;font-weight: 700;}
+.con1 dl dd{margin-bottom: 20px;line-height: 1.714em;}
+.con1 dl .d_last{margin-bottom: 50px;}
+.con1 dl mark{background-color: rgba(255, 255, 0,.4);}

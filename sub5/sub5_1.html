@@ -1,0 +1,148 @@
+<?
+	session_start();
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>무림페이퍼:채용안내</title>
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_1content.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE 9]>  
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="wrap">
+        <!--서브헤더영역-->
+        <? include "../common/sub_head.html" ?>
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+        </div>
+        <div class="sub_menu">
+            <div class="sub_title">
+
+                <h3>채용안내</h3>
+                <p>recruitment guide</p>
+            </div>
+
+            <ul>
+                <li class="current"><a href="sub5_1.html">채용정보</a></li>
+                <li><a href="sub5_2.html">인사제도</a></li>
+                <li class="last"><a href="sub5_3.html">복리후생</a></li>
+
+            </ul>
+        </div>
+        <article id="content">
+
+            <div class="title_area">
+                <div class="line_map">
+                    HOME &gt; 채용안내 &gt; <strong>채용정보</strong>
+                </div>
+                <h2>채용정보</h2>
+
+            </div>
+
+            <div class="content_area">
+                <div class="con1">
+                    <h3>인재상</h3>
+                    <p>무림은 건강한 욕심으로 품격과 집념을 지켜 나갑니다.</p>
+
+                    <ul>
+                        <li>
+
+                            <dl>
+                                <dt>품격</dt>
+                                <dd>우리는 품위와 인격을 높이기 위해 항상 노력합니다.</dd>
+                                <dd>고객과 동료에 대한 <strong>존중</strong></dd>
+                                <dd> 높은 품질을 위한 <strong>전문성</strong></dd>
+
+                            </dl>
+                        </li>
+                        <li class="last">
+                            <dl>
+                                <dt>집념</dt>
+                                <dd>우리는 장인정신을 바탕으로 맡은 역할에 최선을 다합니다.</dd>
+                                <dd>역할 수행을 위한<strong> 책임감</strong></dd>
+                                <dd>일을 해내는 <strong>끈기</strong></dd>
+
+                            </dl>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="con2">
+                    <h3>채용절차</h3>
+
+                    <div class="con2_list">
+                        <p>채용절차는 아래와 같이 진행됩니다.
+                            다만 모집 시기와 모집 분야에 따라 <br>세부적인 전형 절차와 방법이 달라질 수 있으므로
+                            <strong> 정확한 내용은 개별 채용 공고를 통해 확인</strong>하시기 바랍니다.</p>
+                        <ul>
+                            <li>
+                                <dl>
+                                    <dt>01<br>지원서접수</dt>
+                                    <dd>채용 홈페이지를 통한 온라인 입사지원</dd>
+                                </dl>
+
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>02<br>서류전형</dt>
+                                    <dd>제출한 지원서에 기반한 심층적인 서류심사 진행</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>03<br>1차 면접</dt>
+                                    <dd>&lsaquo; 인성면접 &rsaquo;<br> 인재상 + 가치관</dd>
+                                    <dd>&lsaquo; 직무면접 &rsaquo;<br>직무지식 + 역량 </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>04<br>2차 면접</dt>
+                                    <dd>&lsaquo; 임원면접 &rsaquo;<br>
+                                        무림 가치 및 인재상 적합도 최종 검증</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>05<br>최종합격</dt>
+                                    <dd></dd>
+                                </dl>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <span><a href="https://recruit.moorim.co.kr/">개별 채용 공고 자세히 보기</a></span>
+                </div>
+            </div>
+        </article>
+
+
+    </div>
+    <!--서브푸터영역-->
+    <? include "../common/sub_foot.html" ?>
+
+    <!--JQuery-->
+    <script src="../common/js/jquery-1.12.4.min.js"></script>
+    <script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="../common/js/fullnav.js"></script>
+</body>
+
+</html>

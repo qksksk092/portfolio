@@ -1,0 +1,28 @@
+/* 공 통 */
+
+#content .last{margin-right: 0;}
+.contlist{padding: 0 5%;}
+#content .blue{color:#016bb7}
+#content .green{color:#7bc242}
+#content .current{position: relative;}
+#content .current::before{content: '';background: #FFF;width: 6px;height: 6px;border-radius: 50%;position: absolute;top: 0;left: 15px;}
+.main p{color: #fff; letter-spacing: 1px;text-transform: uppercase;font-size: 13px;text-align: center;padding: 5px 0 ;}
+
+.main{height: 130px; background: url(../images/main.jpg) center no-repeat;background-size:cover;border-radius:0 0 15px 15px;}
+.main h3{text-shadow: 1px 1px 3px #666;padding: 40px 0 0 20px;text-align: center; font-family: 'Nanum Gothic', sans-serif;color: #fff; font-weight: 700;font-size: 25px;}
+
+/*개별*/
+.con1{clear: both;}
+.con1 h2{font-family: 'Nanum Gothic', sans-serif;font-size: 30px;font-weight: 700;text-align: center;padding: 30px 0}
+.con1 ul{}
+.con1 ul li{margin-bottom: 50px;font-family: 'Nanum Gothic', sans-serif;width: 100%;}
+.con1 ul li img{width: 225px;display: block;margin: 0 auto;}
+.con1 li strong{padding: 25px 0; display: block; font-size: 1.82em;font-weight: 700;text-align: center}
+.con1 li:first-child strong{color: #7bc242;}
+.con1 li:nth-of-type(2) strong{color: red;}
+.con1 li:last-child strong{color: #016bb7;}
+.con1 li p{font-size: 1.2em;line-height: 30px;text-align: center;margin-bottom: 15px;}
+.con1 li p span{display: block;}
+.con1 li i{display: block;color: #016bb7; font-size: 50px;margin: 0 auto; margin-bottom: 10px;border: 3px solid #016bb7; width:150px;height: 90px; border-radius: 50%;padding-top: 40px;}
+.con1 li:last-child p{margin: 100px 0;position: relative;}
+.con1 li:last-child p::before{content: '';border-left: 7px dotted #016bb7;height: 40px;position: absolute;top: -70px;}

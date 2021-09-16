@@ -1,0 +1,34 @@
+
+/*ID, PW 공통부분*/
+#wrap{ border: 1px solid #ccc;font-family: 'Nanum Gothic', sans-serif;border-radius: 20px;padding: 50px 0;background: #fff;width: 700px;margin: 100px auto;}
+#wrap h1 a{display: block;width: 179px;height: 75px; background: url(../../common/images/logo.png) no-repeat; text-indent: -999px;overflow: hidden;margin: 0 auto 40px;}
+
+#login_form{text-align: center;}
+#col2 #title{}
+#col2 #title p{ text-align: center;   font-weight: 700;margin-bottom: 30px;}
+
+#login_form #login2{}
+#login_form #id_input_button{}
+#login_form #id_input_button fieldset{}
+#login_form #id_input_button fieldset input:first-of-type{outline: 0; border: none;width: 500px;height: 50px;margin-bottom: 30px;font-size: 1.1em;border-bottom: 2px solid #ccc;}
+#login_form #id_input_button fieldset .telBox{}
+#login_form #id_input_button fieldset select{width: 140px;outline: 0; text-align: left;padding: 5px 10px;border: none;height: 50px;margin-bottom: 30px;font-size: 1.1em;border: none;}
+#login_form #id_input_button fieldset .telBox input{outline: 0; border: none;width: 170px; height: 50px;margin-bottom: 30px;border-bottom: 2px solid #ccc; font-size: 1.1em;}
+#login_form #id_input_button fieldset> input:last-of-type{outline: 0; border: none;background: #016bb7;color: #fff;width: 500px;height: 50px;font-weight: 700;font-size: 1.1em;cursor: pointer;margin: 20px 0;}
+
+#id_input_button #loadtext{line-height: 1.5em; width: 450px;color: #666;margin: 10px auto 25px; display: block;padding: 10px 0;}
+
+#id_input_button .go{overflow: hidden;width: 500px;margin: 0 auto 40px;}
+#id_input_button .go li{float: left;color: #666;}
+#id_input_button .go li:last-of-type{float: right;}
+#id_input_button .go li:last-of-type a{margin-left: 10px;}
+#id_input_button .go a{}
+#id_input_button .go i{margin-right: 10px;}
+
+#login2 #join_button{position: relative;margin-top: 60px;}
+#login2 #join_button p{padding: 0 0 15px; font-weight: 700;color: #666;}
+#login2 #join_button a{display: block;border: 2px solid #666; width: 500px;padding: 13px 0;margin: 0 auto 25px;box-sizing: border-box;font-weight: 700;}
+
+
+/*PW 부분 */
+#login_form #id_input_button fieldset >input:nth-of-type(2){outline: 0; border: none;width: 500px;height: 50px;font-size: 1.1em;border-bottom: 2px solid #ccc;}

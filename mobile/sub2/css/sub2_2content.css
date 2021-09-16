@@ -1,0 +1,37 @@
+/* 공 통 */
+
+#content .last{margin-right: 0;}
+#content{padding: 0 5%;margin-bottom: 50px; }
+#content .blue{color:#016bb7}
+#content .green{color:#7bc242}
+#content .red{color:red}
+#content .current{position: relative;}
+#content .current::before{content: '';background: #FFF;width: 6px;height: 6px;border-radius: 50%;position: absolute;top: 0;left: 15px;}
+.main p{color: #fff; letter-spacing: 1px;text-transform: uppercase;font-size: 13px;text-align: center;padding: 5px 0 ;}
+
+.main{height: 130px; background: url(../images/main.jpg) center no-repeat;background-size:cover;border-radius:0 0 15px 15px;}
+.main h3{text-shadow: 1px 1px 3px #666;padding: 40px 0 0 20px;text-align: center; font-family: 'Nanum Gothic', sans-serif;color: #fff; font-weight: 700;font-size: 25px;}
+.con1 ,.con2 ,.con3{margin-bottom: 50px;}
+h2{font-family: 'Nanum Gothic', sans-serif;font-size: 30px;font-weight: 700;text-align: center;padding: 30px 0;}
+#content h3{font-family: 'Nanum Gothic', sans-serif;margin:50px 0 30px 0; font-size: 20px;font-weight: 700;text-align: center;}
+#content >p{font-family: 'Nanum Gothic', sans-serif;font-size: 16px;line-height: 27px;font-weight: 700;}
+/*개별*/
+#content >img{width: 100%;border-radius: 20px;margin-bottom: 15px;}
+.gallery{margin-top: 50px;}
+.gallery >span{display: block;padding: 10px 0; position: relative; text-align: center; font-family: 'Nanum Gothic', sans-serif;font-size: 20px;font-weight: 700;}
+.gallery >span::after{content: '';border-bottom: 1px solid #ccc;width: 45%;position: absolute;top: 20px;left:-20px;}
+.gallery >span::before{content: '';border-bottom: 1px solid #ccc;width: 45%;position: absolute;top: 20px;right:-20px;}
+.gallery #text_ul{position: relative;padding-top: 30px;}
+.gallery #text_ul::after{content: '';border-bottom: 1px solid #ccc;width: 100%;position: absolute;top: 0;left:0;}
+.gallery #text_ul li{display: none;}
+.gallery #text_ul li span{display: block; font-family: 'Nanum Gothic', sans-serif;font-size: 18px;font-weight: 700;text-align: center;margin-bottom: 16px;}
+.gallery #text_ul li table{}
+.gallery #text_ul li table tr{}
+.gallery #text_ul li table tr th{width: 15%;text-align: center;}
+#text_ul table th, #text_ul table td {border: 1px solid #ccc;}
+.gallery #text_ul li table tr td{line-height: 24px;padding:2%}
+.gallery .img_ul{overflow: hidden;margin-bottom: 15px;margin: 0 auto;}
+.gallery .img_ul li{float: left; margin: 1%;width: 31.33%;}
+.gallery .img_ul img{width: 100%;border: 2px solid #fff;border-radius: 10px;}
+
+

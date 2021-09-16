@@ -1,0 +1,59 @@
+/* 기업소개 내용 영역 */
+#content .content_area {}
+#content .content_area .slideMenu {font-family: 'Nanum Gothic', sans-serif;}
+#content .content_area .slideMenu ul {overflow: hidden;margin: 0 auto;width: 404px;}
+#content .content_area .slideMenu ul li {position: relative;width: 200px; float: left;text-align: center;border: 1px solid #ccc;}
+#content .content_area .slideMenu ul li:hover {border: 1px solid #016bb7;position: relative;}
+#content .content_area .slideMenu ul li a {display: block; font-size: 1.143em; padding: 17px 0;color: #666;}
+#content .content_area .slideMenu ul li:hover a {color: #016bb7;font-weight: 700;background: #fff;}
+/* 텍스트 거리 */
+.text{position: fixed; right:0; top: 0;font-size: 50px; z-index: 100}
+
+ 
+
+#content .content_area .last{margin-right: 0;}
+#content  .blue{color: #016bb7;}
+#content  .green{color:#7bc242}
+#content  .red{color:#fd0202}
+
+
+#content .content_area{margin-top:150px;position: relative;} 
+#content .content_area .con1{margin: 150px 0;position: relative;overflow: hidden;}
+#content .content_area .con1 img{}
+#content .content_area .con1 h3{position: absolute;top: -20px;left: 15px;border-radius: 15px; background: #fff;padding: 15px;font-family: 'Nanum Gothic', sans-serif;
+font-weight: 700;font-size: 40px;text-align: center;}
+#content .content_area .con1 .Outbound{}
+#content .content_area .con1 .Outbound dl{}
+#content .content_area .con1 .Outbound dl dt{position: relative;margin: 50px 0 20px 0; font-size: 25px;font-family: 'Nanum Gothic', sans-serif;  font-weight:700;}
+#content .content_area .con1 .Outbound dl span{font-size: 13px;}
+#content .content_area .con1 .Outbound dl dt:nth-of-type(1):before{content: '';position: absolute;top: 20px;left: 180px;background: #ccc;width: 1000px;height: 2px;}
+#content .content_area .con1 .Outbound dl dt:nth-of-type(2):before{content: '';position: absolute;top: 20px;left: 330px;background: #ccc;width: 850px;height: 2px;}
+#content .content_area .con1 .Outbound dl dt:nth-of-type(3):before{content: '';position: absolute;top: 20px;left: 180px;background: #ccc;width: 1000px;height: 2px;}
+#content .content_area .con1 .Outbound dl dt:nth-of-type(4):before{content: '';position: absolute;top: 20px;left: 180px;background:#ccc;width: 1000px;height: 2px;}
+#content .content_area .con1 .Outbound dl dd{text-indent: 20px; font-family: 'Nanum Gothic', sans-serif;line-height: 35px;}
+
+#content .content_area .con2{margin-bottom: 150px;position: relative;overflow: hidden;}
+#content .content_area .con2 img{}
+#content .content_area .con2 h3{position: absolute;top:-20px;left: 15px;border-radius: 15px; background: #fff;padding: 15px;font-family: 'Nanum Gothic', sans-serif;
+font-weight: 700;font-size: 40px;text-align: center;}
+#content .content_area .con2 .Inbound dl{}
+#content .content_area .con2 .Inbound dl dt{position: relative;margin: 50px 0 20px 0; font-size: 25px;font-family: 'Nanum Gothic', sans-serif;  font-weight:700;}
+#content .content_area .con2 .Inbound dl span{font-size: 13px;}
+#content .content_area .con2 .Inbound dl dt:nth-of-type(1):before{content: '';position: absolute;top: 20px;left: 180px;background: #ccc;width: 1000px;height: 2px;}
+#content .content_area .con2 .Inbound dl dt:nth-of-type(2):before{content: '';position: absolute;top: 20px;left: 330px;background: #ccc;width: 850px;height: 2px;}
+#content .content_area .con2 .Inbound dl dt:nth-of-type(3):before{content: '';position: absolute;top: 20px;left: 180px;background: #ccc;width: 1000px;height: 2px;}
+#content .content_area .con2 .Inbound dl dt:nth-of-type(4):before{content: '';position: absolute;top: 20px;left: 180px;background:#ccc;width: 1000px;height: 2px;}
+#content .content_area .con2 .Inbound dl dd{text-indent: 20px; font-family: 'Nanum Gothic', sans-serif;line-height: 35px;}
+#content .content_area .con2 .Inbound dl .text_in{text-indent: 40px;}
+
+    
+/* 상단에 고정 sticky menu */
+.navOn{position: fixed; width: 100%;z-index:60; left:0; top: 0; background: #016bb7;
+    transition: all .8s; margin: 0 auto;}
+#content .content_area .navBox.navOn a{font-size: 20px; padding: 20px 0; color: #fff;}
+  
+  
+  /* 메뉴 활성화  scroll spy */
+  #content .content_area .navBox.navOn .spy{background: #fff; color:#016bb7;}
+   #content .content_area .navBox.navOn .slideMenu{padding: 0;}
+   #content .content_area .navBox.navOn .slideMenu li{border-bottom: none;}

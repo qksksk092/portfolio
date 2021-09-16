@@ -1,0 +1,163 @@
+/*서브 비주얼 공통*/
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+
+#imgBG{
+	position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+
+}
+
+.videoBox span{font-family: 'Lobster', cursive;display: block;color: #d5b555;font-size: .3em;}
+.videoBox h2{background: rgba(51, 51, 51,.4);padding: 5% 0;
+    font-size: 10em;text-align: center;color: #fff; text-transform: uppercase;text-shadow: 3px 3px 2px rgba(0,0,0,.4);position: absolute;top: 30%;left: 0;width: 100%;}
+
+.down{display: block; font-size: 20px; position: absolute; 
+    left:50%; margin-left: -90px; bottom: 20%;
+   animation:ani 1s infinite  alternate;}
+@keyframes ani {
+   0% { transform:scale(1); opacity:1; color:#fff;}
+   100% { transform:scale(1.2); opacity:0.8; color:#888;}
+}	
+   
+#wrap{background: rgba(51, 51, 51,.3);}
+#content{ width:100%; margin:0 auto;}
+#content h3{font-family: 'Lobster', cursive;padding:50px 0; font-size: 4em; font-weight:700;text-align: center; color: #fff;}
+
+.story{background: rgb(0, 0, 0);padding: 0 4% 4% 4%;width: 92%; overflow: hidden;}
+.story h3{color: #fff;}
+.story .backimg{float: left; background: url(../images/sub1/story_back.jpg) no-repeat center;width: 40%;}
+.story .imgbox{}
+.story .leftimg {background: url(../images/sub1/story_alice.png)20% no-repeat; height: 1006px;background-attachment: fixed;}
+.story .text{float: right;width: 55%;text-align: center; color: #fff;font-size:1.5em;padding-top: 4%;}
+.story .text p{ line-height: 2em;margin-bottom: 3%;}
+
+.original{background: rgba(0, 0, 0, 0.8);}
+@keyframes book_ani {
+   0% {
+       transform: translateY(0);
+   }
+   50% {
+       transform: translateY(20px);
+   }
+   }
+.book { transition: all .5s;animation:book_ani 2s 0s linear infinite;position: relative;width: 200px; height: 300px;perspective: 1000px;transform-style: preserve-3d;
+}
+.original .original_tap >span{display: block;text-align: center;font-size:2em;color: #fff;}
+.original .move_box{margin-top: 35px;}
+.original .move_box h4{font-family: 'Lobster', cursive;font-size: 2.8em; font-weight:700;text-align: center;padding: 20px 0;}
+.original .original_tap_gallery{}
+.original .original_tap_gallery h4{font-family: 'Lobster', cursive;padding: 50px 0; font-size: 4em; font-weight:700;text-align: center; }
+.original .original_tap_gallery li:nth-of-type(1),.original_tap_gallery li:nth-of-type(3){background: #fff;padding: 20px;overflow: hidden;}
+.original .original_tap_gallery li:nth-of-type(1) .left{display: block;float: left; background: url(../images/sub1/book_story.jpg) no-repeat center;background-size: cover;width: 20%; height: 651px;}
+.original .original_tap_gallery li:nth-of-type(1) .original_text{float: left;font-size: 1.5em;width: 56%;padding:1% 2%; text-align: center;}
+.original .original_tap_gallery li:nth-of-type(1) .original_text p{}
+.original .original_tap_gallery li:nth-of-type(1) .right{display: block;float: right; background: url(../images/sub1/book_story2.jpg) no-repeat center;background-size: cover;width: 20%; height: 651px;}
+
+.original .original_tap_gallery li:nth-of-type(2){background: #fff;padding:20px 0 50px;overflow: hidden;}
+.original .original_tap_gallery li:nth-of-type(2) .original_text{overflow: hidden;}
+.original .original_tap_gallery li:nth-of-type(2) .Characters{width: 23%;float: left;text-align: center;margin: 3% 1%;}
+.original .original_tap_gallery li:nth-of-type(2) img{}
+.original .original_tap_gallery li:nth-of-type(2) p{font-size: 2.7em;margin-top: 15px;}
+
+.original .original_tap_gallery li:nth-of-type(3){background: #fff;padding:20px 50px 50px;overflow: hidden;}
+.original .original_tap_gallery li:nth-of-type(3) .writerimg{float: left;width: 40%;position: relative;overflow: hidden;}
+.original .original_tap_gallery li:nth-of-type(3) .writerimg span{display: block; background: url(../images/sub1/book_writer.jpg)no-repeat center;height: 525px;width: 100%;}
+.original .original_tap_gallery li:nth-of-type(3) .original_text::after{content: '';position: absolute;top: 0;left: 0;
+   box-shadow: 2px 2px 15px 1px; background: #ccc;width: 1px; height: 500px}
+.original .original_tap_gallery li:nth-of-type(3) .original_text{float: right;width: 50%;font-size: 1.5em;text-align: center;position: relative;padding-left: 5%;}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+.videoBox h2{font-size: 8em;}
+  
+.videoBox span{font-size: .3em;}
+.videoBox h2{font-size: 8em;}
+#content  h3{padding: 60px 0;}
+
+.story{padding: 0 4% 4% 4%;width: 92%;}
+.story .backimg{float: none; height:900px;width: 100%;}
+.story .imgbox{ height:100%;}
+.story .leftimg {background: url(../images/sub1/story_alice.png)400px no-repeat;background-attachment: fixed;height: 100%;}
+.story .text{float: none;width: 100%;text-align: center; color: #fff;font-size:1.5em;padding-left: 0;margin-top: 20px;padding-top:0;}
+.story .text p{ line-height: 2em;}
+
+.original .move_box h4{font-size: 2.5em;padding: 20px 0;}
+.original .original_tap >span{font-size:1.5em}
+.original .original_tap_gallery h4{font-size: 2.7em; }
+.original{background: rgba(0, 0, 0, 0.8);}
+.original .original_tap_gallery li:nth-of-type(1) .left{display: none;}
+.original .original_tap_gallery li:nth-of-type(1) .original_text{float: left;font-size: 1.5em;width: 65%;padding-left: 3%; text-align: center;}
+.original .original_tap_gallery li:nth-of-type(1) .right{display: block;float: right; background: url(../images/sub1/book_story3.png) no-repeat center;background-size: cover;width: 30%; height: 651px;}
+.original .original_tap_gallery li:nth-of-type(2) .Characters{width: 31.33%;margin: 3% 1%;}
+.original .original_tap_gallery li:nth-of-type(2) p{font-size: 1.25em;margin-top: 15px;}
+.original .original_tap_gallery li:nth-of-type(3) .writerimg{margin-top: 70px;}
+.original .original_tap_gallery li:nth-of-type(3) .writerimg span{}
+.original .original_tap_gallery li:nth-of-type(3) .original_text::after{height: 700px;}
+.original .original_tap_gallery li:nth-of-type(3) .original_text{font-size: 1.25em;}
+
+
+}
+
+@media screen and (max-width:786px) {
+.videoBox h2{font-size: 6em;}
+#content  h3{padding: 50px 0; font-size: 3em;}
+
+.story{padding: 0 4% 4% 4%;width: 92%;}
+.story h3{}
+.story .backimg{float: none; background: url(../images/sub1/story.PNG) no-repeat center;border-radius:15px ; height: 408px; width: 100%;}
+.story .imgbox{}
+.story .leftimg {background: none; height: 0;background-attachment: none;}
+.story .text{float: none;width: 100%;text-align: center;font-size:1.5em;}
+.story .text p{ line-height: 1.5em;}
+
+
+.book {
+	position: relative;
+	width: 160px; 
+	height: 220px;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
+.original .move_box h4{font-size: 1.8em;padding: 10px 0;}
+
+.original .original_tap >span{font-size:1.25em}
+.original .original_tap_gallery li:nth-of-type(1) .left{display: none;}
+.original .original_tap_gallery li:nth-of-type(1) .original_text{float: none;width: 100%;padding-left: 0; text-align: center;font-size: 1.5em;}
+.original .original_tap_gallery li:nth-of-type(1) .original_text p{}
+.original .original_tap_gallery li:nth-of-type(1) .right{display: block;float: none; background: url(../images/sub1/book_story4.png) no-repeat center;background-size: none;width: 100%; height: 365px;}
+
+.original .original_tap_gallery li:nth-of-type(2) .Characters{width:48%;margin: 3% 1%;}
+
+.original .original_tap_gallery li:nth-of-type(3){background: #fff;padding:20px 4% 50px;overflow: hidden;}
+.original .original_tap_gallery li:nth-of-type(3) .original_text{float: none;width: 100%;}
+.original .original_tap_gallery li:nth-of-type(3) .writerimg{float: none;width: 100%;margin-top: 0;margin-bottom: 50px;}
+.original .original_tap_gallery li:nth-of-type(3) .original_text::after{display: none;}
+.original .original_tap_gallery li:nth-of-type(3) .writerimg span{}
+.original .original_tap_gallery li:nth-of-type(3) .original_text{padding-left: 0;}
+.original .original_tap_gallery li:nth-of-type(3) .original_text p{font-size: 1.25em;}
+
+}
+
+@media screen and (max-width:640px) {
+   .videoBox h2{font-size: 4.5em;}
+   .story .text{float: none;width: 100%;text-align: center;font-size:1.25em;}
+   .original .original_tap_gallery li:nth-of-type(2) .Characters {
+      width: 100%;
+      margin: 5% auto;
+      float: none;
+  }
+  .original .original_tap_gallery li:nth-of-type(1) .original_text{font-size: 1.25em;}
+
+
+}
+
+@media screen and (max-width:480px) {
+}

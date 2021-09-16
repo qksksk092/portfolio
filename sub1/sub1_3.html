@@ -1,0 +1,163 @@
+<?
+	session_start();
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>무림페이퍼:무림갤러리</title>
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_3content.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0daa4782b89e1dd15f14bd801d95724c"></script>
+    <script src="./js/map2.js"></script>
+
+
+    <!--[if IE 9]>  
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="wrap">
+        <!--서브헤더영역-->
+        <? include "../common/sub_head.html" ?>
+
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+        </div>
+
+        <div class="sub_menu">
+            <div class="sub_title">
+
+                <h3>회사정보</h3>
+                <p>company information</p>
+            </div>
+            <ul>
+                <li><a href="sub1_1.html">회사개요</a> </li>
+                <li><a href="sub1_2.html">사업장소개</a> </li>
+                <li class="current"><a href="sub1_3.html">무림갤러리</a> </li>
+                <li class="last"><a href="sub1_4.html">연혁</a></li>
+            </ul>
+        </div>
+        <article id="content">
+
+            <div class="title_area">
+                <div class="line_map">
+                    HOME &gt; 회사정보 &gt; <strong>무림갤러리</strong>
+                </div>
+                <h2>무림갤러리</h2>
+
+            </div>
+
+            <div class="content_area">
+
+
+                <div class="gallery">
+
+                    <h3>소개</h3>
+                    <div class="gallery_txt">
+                        <img src="images/content3/gallery5.jpg" alt="무림갤러리 외관">
+                        <dl>
+                            <dt><span class="green">생활에 가치</span>를 <br>더하는 펄프제지 기술, <span class="blue">무림</span></dt>
+
+                            <dd> 무림 갤러리는 무림의 종이 제품들을 직접 체험
+                                할 수 있고 고객 편의 서비스 제공은 물론 더 나아가 종이의 새로운 가치를
+                                더하는 공간입니다. 또한 무림이 생산하고 있는 모든 종이들을 직접 보고 만지면서 체험할 수 있으며,
+                                여러가지 고객 편의 서비스를 통해 종이에 관한 궁금증을 해결할 수 있는 공간입니다.</dd>
+                        </dl>
+                    </div>
+
+
+                    <div class="convenience">
+                        <h3>고객 편의 서비스</h3>
+                        <ul>
+
+                            <li><img src="images/content3/testimonials.png" alt=""><br>
+                                <strong>제품 (종이) 상담</strong><br>
+                                종이 전문가가 상주하여 무상 컨설팅 서비스 제공</li>
+
+                            <li><img src="images/content3/redeem-points.png" alt=""><br>
+                                <strong>무림의 모든 제품 전시</strong><br>
+                                무림에서 생산하는 모든 종이 제품의 체험 공간
+                                (무료 샘플 제공)
+                            </li>
+
+                            <li><img src="images/content3/social-network.png" alt=""><br>
+                                <strong>소통 공간</strong><br>
+                                종이 관련 세미나와 관련 업계 종사자들의 휴식 공간 제공</li>
+
+                            <li><img src="images/content3/delivery-truck.png" alt=""><br>
+                                <strong>소량 긴급 배송</strong><br>
+                                무림의 대표 제품들을 빠르고 쉽게 주문 가능
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+                <div class="map_wed">
+                    <h3>오시는길</h3>
+                    <div id="map"></div>
+                    <div class="Information">
+                        <dl>
+                            <dt><i class="far fa-clock"></i>이용시간 </dt>
+                            <dd> 평일 09:00 ~ 18:00</dd>
+                        </dl>
+                        <dl>
+                            <dt><i class="fas fa-map-marker-alt"></i>주소 </dt>
+                            <dd> 서울특별시 중구 충무로 22 호운빌딩, 1/2층</dd>
+                        </dl>
+                        <dl>
+                            <dt class="last"><i class="fas fa-phone-alt"></i>전화번호 </dt>
+                            <dd> 02) 771. 0202</dd>
+                        </dl>
+                    </div>
+                    <div class="road">
+                        <ul>
+                            <li>
+                                <dl>
+                                    <dt><i class="fas fa-shoe-prints"></i> 도보이용시</dt>
+                                    <dd><span class="Orange">3호선</span>을지로 3가역 8번 출구에서 명보 사거리방면으로 직진</dd>
+                                    <dd><span class="sky">4호선</span>충무로역 7번 출구에서 명보 사거리방면으로 직진</dd>
+
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt><i class="fas fa-bus"></i>대중교통이용시</dt>
+                                    <dd><span class="green">7011</span>충무로역.매일경제에서 승차 후 초동에서 하차</dd>
+                                    <dd><span class="blue">604</span>충무로역.매일경제에서 승차 후 초동에서 하차</dd>
+
+                                </dl>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+    </div>
+    <!--서브푸터영역-->
+    <? include "../common/sub_foot.html" ?>
+
+    <!--JQuery-->
+    <script src="../common/js/jquery-1.12.4.min.js"></script>
+    <script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="../common/js/fullnav.js"></script>
+
+
+</body>
+
+</html>

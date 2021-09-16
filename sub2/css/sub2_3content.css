@@ -1,0 +1,27 @@
+/* 기업소개 내용 영역 */
+#content .content_area {overflow: hidden;}
+#content .content_area .left{float: left;width: 200px;}
+#content .content_area .sticky{position: fixed;top: 300px;}
+#content .content_area .contentnav {margin-bottom: 100px;font-family: 'Nanum Gothic', sans-serif;}
+#content .content_area .contentnav ul {margin: 0 auto;width: 404px;}
+#content .content_area .contentnav ul li {position: relative;width: 200px; }
+#content .content_area .contentnav ul li a{display: block; font-size: 1.143em; padding: 17px 0;color: #666;}
+#content .content_area .contentnav ul a:hover {color: #016bb7;font-weight: 700}
+#content .content_area .contentnav ul li a::after{content: ''; display: block; width: 0; height: 2px; background: #016bb7; position: absolute; opacity: 0; left: 0; bottom: 0; transition: all .4s; }
+#content .content_area .contentnav ul li a:hover::after{opacity: 1; width: 70%; left: 10%; display: block;}
+#content .content_area .contentnav ul li a.spy{color: #016bb7;font-weight: 700}
+#content .content_area .contentnav ul li a.spy::after{opacity: 1; width: 70%; left: 10%; display: block;}
+
+#content .content_area .right{float: right;width: 900px;;}
+#content .content_area .right .top{}
+#content .content_area .right .top img{border-radius:0 0 0 250px;}
+#content .content_area .right .top p{margin-top: 30px;text-align: right;line-height: 50px; font-family: 'Nanum Gothic', sans-serif;font-size:1.6em;}
+#content .content_area .right .bottom{margin:80px 0 150px 0}
+#content .content_area .right .bottom ul{font-family: 'Nanum Gothic', sans-serif;}
+#content .content_area .right .bottom li{}
+#content .content_area .right .bottom h3{position: relative;font-family: 'Nanum Gothic', sans-serif;  font-weight:700;font-size:40px;text-align: center;padding: 50px 0;}
+#content .content_area .right .bottom h3::before{content: '';background: #ccc;width:100%;height: 1px;position: absolute;top: -10px;left: 0;}
+#content .content_area .right .bottom dl{margin-bottom: 40px;}
+#content .content_area .right .bottom dt{font-size:25px;margin-top: 40px;margin-bottom: 10px;}
+#content .content_area .right .bottom strong{color: #333;}
+#content .content_area .right .bottom dd{line-height: 30px;color: #666;margin-bottom: 10px;}

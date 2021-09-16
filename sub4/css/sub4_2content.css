@@ -1,0 +1,37 @@
+/* 기업소개 내용 영역 */
+#content .content_area {margin-top: 120px;}
+#content .content_area .red{color:#ff0000}
+
+#content .content_area .con1{margin-bottom: 150px;}
+#content .content_area .con1 h3{font-family: 'Nanum Gothic', sans-serif;  font-weight: 700;font-size: 40px;margin-bottom: 100px;text-align: center;}
+#content .content_area .con1 ul{overflow: hidden;margin-left: 35px;}
+#content .content_area .con1 li{float: left;margin-right:40px ; width: 350px;}
+#content .content_area .con1 .last{margin-right: 0;}
+#content .content_area .con1 .img1{background: url(../images/content2/con1_1.png)no-repeat;}
+#content .content_area .con1 .img2{background: url(../images/content2/con1_2.png)no-repeat;}
+#content .content_area .con1 .img3{background: url(../images/content2/con1_3.png)no-repeat;}
+#content .content_area .con1 dl{margin-top: 450px;position: relative;}
+#content .content_area .con1 dt{background: rgba(95, 158, 160,.7);padding: 5px; font-family: 'Nanum Gothic', sans-serif; font-weight:700; font-size: 20px;;text-align: center;}
+#content .content_area .con1 dt::after{content: '';position: absolute;top:-80px;left:175px; background: #999;width: 1px;height: 70px;}
+#content .content_area .con1 dd{font-family: 'Nanum Gothic', sans-serif;text-align: justify;line-height: 30px;padding:20px;}
+
+
+
+#content .content_area .con2{}
+#content .content_area .con2 h3{font-family: 'Nanum Gothic', sans-serif;  font-weight: 700;font-size: 40px;margin-bottom: 30px;text-align: center;}
+#content .content_area .con2 p:nth-of-type(1){margin-top: 30px;font-family: 'Nanum Gothic', sans-serif;text-align: center; margin-bottom: 100px;font-size: 20px;}
+#content .content_area .con2 .pulp{}
+#content .content_area .con2 .pulp #pulpinner{overflow: hidden;margin: 0 40px;}
+#content .content_area .con2 .pulp #pulpinner li{position: relative; float:left;width:200px;height: 570px;padding: 0 40px;}
+#content .content_area .con2 .pulp #pulpinner img{margin-left: 36px;}
+#content .content_area .con2 .pulp #pulpinner li::after{content: ''; position: absolute;top:150px;left: 230px;background: url(../images/content2/arrow-right.png);width: 32px;height: 32px; animation: .6s infinite arrow;}
+@keyframes arrow {
+    from {transform: translate(0);}
+
+    to {transform: translate(15px);}
+  }
+  #content .content_area .con2 .pulp #pulpinner li:last-of-type::after{display: none;}
+#content .content_area .con2 .pulp #pulpinner span{text-align: center; display: block;font-family: 'Nanum Gothic', sans-serif;  font-weight: 700;font-size: 25px;padding: 10px 0;}
+#content .content_area .con2 .pulp #pulpinner p{line-height:1.5em;font-size: 16px;background: #f7f7f7;padding: 10px;border-radius: 10px;}
+#content .content_area .con2 .pulp #pulpinner strong{display: block;padding: 5px;text-align: center;}
+
