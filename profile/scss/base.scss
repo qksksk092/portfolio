@@ -1,0 +1,36 @@
+// Break Point
+$sm: 768px;
+$md: 1020px;
+$px: 1400px;
+
+// Mixins
+@mixin sm {
+    @media (max-width : $sm) {
+        @content
+    }
+};
+
+@mixin md {
+    @media (max-width : $md) {
+        @content
+    }
+};
+
+@mixin pc {
+    @media (max-width : $pc) {
+        @content
+    }
+};
+
+
+//color
+@mixin col-g {
+    color: #adadad;
+}
+
+
+//etc
+@mixin shadow-out {
+    box-shadow: 5px 5px 14px rgba(55, 55, 55, 0.1);
+
+}
